@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import AboutPage from "./pages/AboutPage";
-//import ErrorPage from "./pages/errorPage/ErrorPage";
+import ErrorPage from "./pages/errorPage/ErrorPage";
 
 const App = () => {
   return (
