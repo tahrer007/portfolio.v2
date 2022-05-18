@@ -11,3 +11,12 @@
     height: 100vh;
     width: 100vw;
 }
+/*general pages sittings */
+.page {
+  display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+  height: 100%;
+  width: 100%;
+}
