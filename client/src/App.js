@@ -1,14 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ContactPage from "./pages/ContactPage";
-import ProjectsPage from "./pages/ProjectsPage";
-import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/home/HomePage";
+import ContactPage from "./pages/contact/ContactPage";
+import ProjectsPage from "./pages/projects/ProjectsPage";
+import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
+
+import "./app.css"
 
 const App = () => {
   return (
-    <div>
+    <div className="appContainer">
   <BrowserRouter>
    
  <Routes>
