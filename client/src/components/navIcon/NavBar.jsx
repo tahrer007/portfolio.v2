@@ -1,7 +1,9 @@
-import React from "react";
+import React  ,{useState} from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
+  const [showNav,setShowNav]=useState(false);
+
   return (
     <header className="">
       <Link className="navButton" to="/">
