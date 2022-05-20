@@ -5,8 +5,6 @@ import ContactPage from "./pages/contact/ContactPage";
 import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
-
-
 import "./app.css"
 
 const App = () => {
