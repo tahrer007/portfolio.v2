@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <header>
+    <header className="">
       <Link className="navButton" to="/">
         Home
       </Link>
