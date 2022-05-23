@@ -1,12 +1,11 @@
 .navContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
   position: fixed;
   background-color: blueviolet;
-  top: 1em;
-  right: 1em;
+  top: 0;
+  right: 0;
 }
 .navCircle {
   border: 3px;
@@ -16,14 +15,44 @@
   border: 1px solid black;
   border-radius: 50%;
 }
-.burger {
+
+.iconsImage{
   max-width: 100%;
   max-height: 100%;
   cursor: pointer;
 }
-.closeIcon {
+.burger {
+  
 }
-.navMenu {
+/* menu items */
+.menuWraper{
+  display: flex;
+  flex-direction: column-reverse ;
+  justify-content: flex-end;
+  width :400px;
+  height: 400px;
+  background-color: chartreuse;
+  border-radius: 0 0 0 100%  ;
+ 
+  
 }
-.navItem {
+.closeBox{
+  border: 3px;
+  height: 43px;
+  width: 41px;
+  background-color: red;
+  align-self: baseline;
+  position: fixed;
+  top: 1em ; 
+  right : 1em
+}
+
+.linkList {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.menuItem {
 }

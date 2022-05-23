@@ -10,16 +10,25 @@ const NavBar = () => {
       {!showMenu && (
         <div className="navCircle" onClick={() => setshowMenu(!showMenu)}>
           <img
-            className="burger"
+            className="iconsImage"
             src="https://img.icons8.com/ios-filled/344/menu--v1.png"
             alt="burger icon"
           />
         </div>
       )}
 
-      <div className="menuWraper">
-        <div className="closeIcon"></div>
-        <div className="menuItems">
+      <div
+        className="menuWraper"
+        style={showMenu ? { display: "block" } : { display: "none" }}
+      >
+        <div className="closeBox" onClick={() => setshowMenu(!showMenu)}>
+          <img
+            className="iconsImage"
+            src="https://img.icons8.com/external-doodle-bomsymbols-/452/external-close-doodle-web-design-device-set-2-doodle-bomsymbols-.png"
+            alt="close icon"
+          />
+        </div>
+        <div className="linkList">
           <Link className="navItem" to="/">
             Home
           </Link>
@@ -32,7 +41,7 @@ const NavBar = () => {
           <Link className="navItem" to="/contactme">
             contact
           </Link>
-        </div>
+      </div>
       </div>
     </div>
   );
