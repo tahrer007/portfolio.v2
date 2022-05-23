@@ -1,7 +1,7 @@
 .navContainer {
   display: flex;
   flex-direction: column;
-  
+
   position: fixed;
   background-color: blueviolet;
   top: 0;
@@ -16,43 +16,48 @@
   border-radius: 50%;
 }
 
-.iconsImage{
+.iconsImage {
   max-width: 100%;
   max-height: 100%;
   cursor: pointer;
 }
 .burger {
-  
 }
 /* menu items */
-.menuWraper{
+.menuWraper {
   display: flex;
-  flex-direction: column-reverse ;
-  justify-content: flex-end;
-  width :400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
   height: 400px;
   background-color: chartreuse;
-  border-radius: 0 0 0 100%  ;
- 
-  
+  border-radius: 0 0 0 100%;
 }
-.closeBox{
+.closeBox {
   border: 3px;
   height: 43px;
   width: 41px;
   background-color: red;
-  align-self: baseline;
   position: fixed;
-  top: 1em ; 
-  right : 1em
+  top: 1em;
+  right: 1em;
 }
 
 .linkList {
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
-.menuItem {
+.link {
+ text-decoration: none;
+ color: azure;
+ font-size: 24px;
+ 
+
+}
+.link:hover {
+  color: red;
 }

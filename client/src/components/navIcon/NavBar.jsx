@@ -23,7 +23,7 @@ const NavBar = () => {
 
       <div
         className="menuWraper"
-        style={showMenu ? { display: "block" } : { display: "none" }}
+        style={showMenu ? { visibility: "visible" } : { display: "none" }}
       >
         <div className="closeBox" onClick={() => setshowMenu(!showMenu)}>
           <img
@@ -33,16 +33,16 @@ const NavBar = () => {
           />
         </div>
         <div className="linkList">
-          <Link className="navItem" to="/" onClick={()=>setshowMenu(!showMenu)}>
+          <Link className="link" to="/" onClick={()=>setshowMenu(!showMenu)}>
             Home
           </Link>
-          <Link className="navItem" to="/about" onClick={()=>setshowMenu(!showMenu)}>
+          <Link className="link" to="/about" onClick={()=>setshowMenu(!showMenu)}>
             About
           </Link>
-          <Link className="navItem" to="/projects" onClick={()=>setshowMenu(!showMenu)} >
+          <Link className="link" to="/projects" onClick={()=>setshowMenu(!showMenu)} >
             projects
           </Link>
-          <Link className="navItem" to="/contactme" onClick={()=>setshowMenu(!showMenu)}>
+          <Link className="link" to="/contactme" onClick={()=>setshowMenu(!showMenu)}>
             contact
           </Link>
       </div>
