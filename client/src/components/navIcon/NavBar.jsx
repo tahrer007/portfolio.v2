@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import "./nav.css"
 
 const NavBar = () => {
-  //const [showNav,setShowNav]=useState(false);
+  const [showMenu,setshowMenu]=useState(false);
 
   return (
     <div className="navContainer">
-      <div className="navCircle">icon</div>
+      {!showMenu &&<div className="navCircle" onClick={()=>setshowMenu(!showMenu)}></div>}
       <div className="menuWraper">
         
-        <Link className="navItem" to="/">
+       {/* <Link className="navItem" to="/">
           Home
         </Link>
         <Link className="navItem" to="/about">
@@ -21,7 +21,7 @@ const NavBar = () => {
         </Link>
         <Link className="navItem" to="/contactme">
           contact
-        </Link>
+  </Link>*/}
   </div>
     </div>
   );

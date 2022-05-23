@@ -9,6 +9,14 @@
   right: 1em;
 }
 .navCircle {
+ 
+ border: 3px ;
+  height: 43px;
+  width: 41px;
+  padding: 20px 21px;
+  border:1px solid black;
+  border-radius: 50%;
+  
 }
 .burgerIcon {
 }
