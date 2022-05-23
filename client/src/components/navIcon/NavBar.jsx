@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState ,useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
 const NavBar = () => {
   const [showMenu, setshowMenu] = useState(false);
+  const test = useRef();
 
+  useEffect(()=>{
+    
+  },[])
   return (
     <div className="navContainer">
       {!showMenu && (
@@ -29,16 +33,16 @@ const NavBar = () => {
           />
         </div>
         <div className="linkList">
-          <Link className="navItem" to="/">
+          <Link className="navItem" to="/" onClick={()=>setshowMenu(!showMenu)}>
             Home
           </Link>
-          <Link className="navItem" to="/about">
+          <Link className="navItem" to="/about" onClick={()=>setshowMenu(!showMenu)}>
             About
           </Link>
-          <Link className="navItem" to="/projects">
+          <Link className="navItem" to="/projects" onClick={()=>setshowMenu(!showMenu)} >
             projects
           </Link>
-          <Link className="navItem" to="/contactme">
+          <Link className="navItem" to="/contactme" onClick={()=>setshowMenu(!showMenu)}>
             contact
           </Link>
       </div>
