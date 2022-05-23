@@ -5,7 +5,7 @@ const NavBar = () => {
   //const [showNav,setShowNav]=useState(false);
 
   return (
-    <header className="">
+    <header className="navContainer">
       <Link className="navButton" to="/">
         Home
       </Link>
