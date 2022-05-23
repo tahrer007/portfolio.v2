@@ -7,8 +7,9 @@ const NavBar = () => {
 
   return (
     <div className="navContainer">
-      <div className="navIcon">icon</div>
-      <div className="navMenu">
+      <div className="navCircle">icon</div>
+      <div className="menuWraper">
+        
         <Link className="navItem" to="/">
           Home
         </Link>

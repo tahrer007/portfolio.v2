@@ -4,13 +4,11 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  height: 50%;
-  width: 50%;
-  right: 0;
-  top :0 ;
   background-color: blueviolet;
+  top:1em ;
+  right: 1em;
 }
-.navIcon {
+.navCircle {
 }
 .burgerIcon {
 }
