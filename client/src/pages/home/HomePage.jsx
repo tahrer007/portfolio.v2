@@ -7,8 +7,8 @@ const HomePage = () => {
     
     //e.preventDefault();
   }
-  return (<div className="page homePage">
-    <div> Hello, I'm Matthew Williams.
+  return (<div className="pages homePage">
+    <div> Hello, I'm Tahrer Abu Diab.
 I'm a full-stack web developer.
 
 

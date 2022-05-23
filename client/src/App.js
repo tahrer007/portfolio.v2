@@ -5,13 +5,15 @@ import ContactPage from "./pages/contact/ContactPage";
 import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
+import NavBar from "./components/navIcon/NavBar";
 import "./app.css"
 
 const App = () => {
   return (
     <div className="appContainer">
+      
   <BrowserRouter>
-   
+  <NavBar/>
  <Routes>
    <Route path="/" element={<HomePage />} />
    <Route path="/contactme" element={<ContactPage />} />

@@ -12,7 +12,7 @@
     width: 100vw;
 }
 /*general pages sittings */
-.page {
+.pages {
   display: flex;
     flex-direction: column;
     justify-content:center ;

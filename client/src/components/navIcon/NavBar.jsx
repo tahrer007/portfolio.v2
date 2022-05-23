@@ -6,18 +6,26 @@ const NavBar = () => {
 
   return (
     <header className="navContainer">
-      <Link className="navButton" to="/">
+      <div className="navIcon">
+        icon
+      </div>
+      <div className="navMenu">
+
+      <Link className="navItem" to="/">
         Home
       </Link>
-      <Link className="navButton" to="/about">
+      <Link className="navItem" to="/about">
         About
       </Link>
-      <Link className="navButton" to="/projects">
+      <Link className="navItem" to="/projects">
         projects
       </Link>
-      <Link className="navButton" to="/contactme">
+      <Link className="navItem" to="/contactme">
         contact
       </Link>
+
+      </div>
+     
       
     </header>
   );
