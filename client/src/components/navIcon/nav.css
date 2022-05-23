@@ -1,23 +1,22 @@
-.navContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content:center ;
-    align-items: center;
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
   height: 50%;
   width: 50%;
-    background-color: blueviolet;
+  right: 0;
+  top :0 ;
+  background-color: blueviolet;
 }
-.navIcon{
+.navIcon {
 }
-.burgerIcon{
-
+.burgerIcon {
 }
-.closeIcon{
-
+.closeIcon {
 }
-.navMenu{
-
+.navMenu {
 }
-.navItem{
-
+.navItem {
 }
