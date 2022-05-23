@@ -16,19 +16,23 @@ const NavBar = () => {
           />
         </div>
       )}
+
       <div className="menuWraper">
-        {/* <Link className="navItem" to="/">
-          Home
-        </Link>
-        <Link className="navItem" to="/about">
-          About
-        </Link>
-        <Link className="navItem" to="/projects">
-          projects
-        </Link>
-        <Link className="navItem" to="/contactme">
-          contact
-  </Link>*/}
+        <div className="closeIcon"></div>
+        <div className="menuItems">
+          <Link className="navItem" to="/">
+            Home
+          </Link>
+          <Link className="navItem" to="/about">
+            About
+          </Link>
+          <Link className="navItem" to="/projects">
+            projects
+          </Link>
+          <Link className="navItem" to="/contactme">
+            contact
+          </Link>
+        </div>
       </div>
     </div>
   );
