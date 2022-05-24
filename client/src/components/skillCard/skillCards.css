@@ -1,0 +1,23 @@
+.skillCard{
+    width: 10%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.skillIcon{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+.cardTitle{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+}
+.skillDetails{
+    width: 30%;
+    height: 100%;
+    background-color: silver;
+}
