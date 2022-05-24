@@ -1,20 +1,26 @@
-.aboutPage{
-    background-color: aquamarine;
+.aboutPage {
+  background-color: aquamarine;
 }
 
-h1{
-
+.skillsIconsContainer {
+    width: 100%;
+    height: 20%;
+    background-color: gold;
 }
-
-.skillsIconsContainer{
-
+.detailsContainer {
+    width: 100%;
+    height: 70%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
 }
-.detailsContainer{
-
+.personalDetails {
+    width: 40%;
+    height: 100%;
+    background-color: gray;
 }
-.personalDetails{
-
-}
-.skillsChart{
-
+.skillsChart {
+    width: 60%;
+    height: 100%;
+    background-color: coral;
 }
