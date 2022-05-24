@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -7,10 +7,9 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
-import { Bar } from 'react-chartjs-2';
-import {skillsPercentages} from "../../data/AboutPageData"
-
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
+import { skillsPercentages } from "../../data/AboutPageData";
 
 ChartJS.register(
   CategoryScale,
@@ -22,7 +21,7 @@ ChartJS.register(
 );
 
 export const options = {
-  indexAxis: 'y' ,
+  indexAxis: "y",
   elements: {
     bar: {
       borderWidth: 2,
@@ -31,31 +30,37 @@ export const options = {
   responsive: true,
   plugins: {
     legend: {
-      position: 'right',
+     
+      display: false
     },
     title: {
-      display: true,
-      text: 'Chart.js Horizontal Bar Chart',
+      display: null,
+      text: "Chart.js Horizontal Bar Chart",
     },
+    
   },
+  scales: {
+    x: {
+        suggestedMin: 0,
+        suggestedMax: 100
+    }
+}
 };
 
-const labels = skillsPercentages.map(x=>x.name)
+const labels = skillsPercentages.map((x) => x.name);
 
 export const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: skillsPercentages.map((x)=>x.percentage),
-      borderColor: 'rgb(255, 99, 132)',
-      backgroundColor: 'rgba(255, 99, 132, 0.5)',
+      //label: "skills chart",
+      data: skillsPercentages.map((x) => x.percentage),
+      borderColor: "rgb(141, 99, 255)",
+      backgroundColor: "rgba(141, 99, 255, 0.5)",
     },
-  
   ],
 };
 
 export default function Chart() {
-    
   return <Bar options={options} data={data} />;
 }
