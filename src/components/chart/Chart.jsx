@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,6 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+import {skillsPercentages} from "../../data/AboutPageData"
 
 
 ChartJS.register(
@@ -39,14 +40,14 @@ export const options = {
   },
 };
 
-const labels = ['HTML', 'CSS', 'JavaScript', 'React', 'React Native', 'Node.js', 'MongooDB'];
+const labels = skillsPercentages.map(x=>x.name)
 
 export const data = {
   labels,
   datasets: [
     {
       label: 'Dataset 1',
-      data: labels.map(() => Math.floor((Math.random() * 100) + 1)),
+      data: skillsPercentages.map((x)=>x.percentage),
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
     },
@@ -55,5 +56,6 @@ export const data = {
 };
 
 export default function Chart() {
+    
   return <Bar options={options} data={data} />;
 }
