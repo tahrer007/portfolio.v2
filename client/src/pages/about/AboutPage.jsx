@@ -1,5 +1,6 @@
 import React from "react";
 import SkillCards from "../../components/skillCard/SkillCard";
+import PersonalDetails from "../../components/personalDetails/PersonalDetails";
 import "../../app.css";
 import "./about.css";
 
@@ -12,7 +13,7 @@ const AboutPage = () => {
       </div>
       <SkillCards />
       <div className="detailsContainer">
-        <div className="personalDetails">personal details </div>
+        <PersonalDetails/>
         <div className="skillsChart">charts </div>
       </div>
     </div>

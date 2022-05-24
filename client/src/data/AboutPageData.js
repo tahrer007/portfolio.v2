@@ -20,5 +20,5 @@ const skillsDetails = [
     icon: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
   },
 ];
-
-export  {skillsDetails};
+const aboutMe = "Hi, my name is Tahrer and I’m a Full-Stack Developer, with a great passion for coding and developing new practical websites."
+export  {skillsDetails,aboutMe};
