@@ -3,9 +3,12 @@
 }
 
 .skillsIconsContainer {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 20%;
     background-color: gold;
+   
 }
 .detailsContainer {
     width: 100%;
