@@ -1,11 +1,14 @@
 .projectsPage {
   background-color: coral;
   justify-content: center;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 .projectContainer {
   height: 80%;
   width: 90%;
   display: flex;
+  justify-content: space-around;
   margin: 2em;
   background-color: red;
 }
@@ -13,13 +16,13 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 50%;
+  width: 45%;
   background-color: brown;
 }
 .screenShotsWraper {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 50%;
+  width: 45%;
   background-color: yellow;
 }
