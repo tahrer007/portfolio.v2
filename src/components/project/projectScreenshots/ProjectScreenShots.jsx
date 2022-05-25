@@ -1,5 +1,6 @@
 import React from "react";
-import "./projectScreenShots.css"
+import "./projectScreenShots.css";
+
 
 
 const ProjectScreenShots = ({project}) => {

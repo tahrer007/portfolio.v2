@@ -1,19 +1,16 @@
-import React, { useEffect,useState} from "react";
+import React, { useEffect, useState } from "react";
 import "./projectDetails.css";
 import { technologiesIcons } from "../../../data/projectsData";
 
 const ProjectDetails = ({ project }) => {
   const handleLink = (link) => window.open(link);
   const skillIcon = (index) => technologiesIcons.find((x) => x.id === index);
-  const [skillsDetails,setSkillsDetails]=useState([]);
+  const [skillsDetails, setSkillsDetails] = useState([]);
 
   useEffect(() => {
-    //console.log(technologiesIcons);
-    //console.log(skillIcon(2));
-    const arr = project.technologies.map((skill)=>skillIcon(skill));
+    
+    const arr = project.technologies.map((skill) => skillIcon(skill));
     setSkillsDetails(arr);
-
-
   }, [project?.technologies]);
 
   return (
