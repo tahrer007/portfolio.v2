@@ -3,9 +3,10 @@
   justify-content: center;
   scroll-behavior: smooth;
   overflow-y: scroll;
+  
 }
 .projectContainer {
-  height: 80%;
+  height: 100%;
   width: 90%;
   display: flex;
   justify-content: space-around;
@@ -19,7 +20,7 @@
   width: 45%;
   background-color: brown;
 }
-.screenShotsWraper {
+.screenShotsWraper{
   display: flex;
   flex-direction: column;
   height: 100%;

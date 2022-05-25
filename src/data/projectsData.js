@@ -14,7 +14,6 @@ const projectsData = [
       "https://i.ibb.co/qYSgbHY/Tadmit-3.jpg",
     ],
   },
-
 ];
 
 const technologiesIcons = [
