@@ -2,14 +2,14 @@
  background-color: coral;
  overflow-y: scroll;
  justify-content: center;
-    justify-items: center;
-
+ justify-items: center;
 }
 .projectContainer{
-    height:80%;
-    width: 90%;
+    height:80vh;
+    width: 90vw;
     display: flex;
-    flex-direction: row;
+    margin: 10px;
+    
     
 }
 .projectDetailsBox{
