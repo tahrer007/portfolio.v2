@@ -1,6 +1,7 @@
 .screenShotsWraper{
     display: grid;
     grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 90% 10% ;
 }
 .mainImage{
     background-color: green;
@@ -14,4 +15,13 @@
 .sideBtn{
     background-color: aqua;
     cursor: pointer;
+}
+.smallCorsela{
+background-color: blueviolet;
+grid-column: 2 / 3;
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-columns: auto;
+
 }

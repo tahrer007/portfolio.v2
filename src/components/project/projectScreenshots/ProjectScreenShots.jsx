@@ -20,6 +20,7 @@ const ProjectScreenShots = ({ project }) => {
       <div className="centerFlex sideBtn" onClick={clickRight}>
         right
       </div>
+      <div className="smallCorsela">small</div>
     </div>
   );
 };
