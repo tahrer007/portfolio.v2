@@ -1,29 +1,25 @@
-.projectsPage{
- background-color: coral;
- overflow-y: scroll;
- justify-content: center;
- justify-items: center;
+.projectsPage {
+  background-color: coral;
+  justify-content: center;
 }
-.projectContainer{
-    height:80vh;
-    width: 90vw;
-    display: flex;
-    margin: 10px;
-    
-    
+.projectContainer {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  margin: 2em;
+  background-color: red;
 }
-.projectDetailsBox{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 50%;
-    background-color: brown;
+.projectDetailsBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: brown;
 }
-.projectScreenShoots{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 50%;
-    background-color: yellow;
+.screenShotsWraper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: yellow;
 }
-
