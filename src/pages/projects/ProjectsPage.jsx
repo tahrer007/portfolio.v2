@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     <div className="pages projectsPage">
       {projectsData.map((project) => {
         return (
-          <div className="projectContainer" key={project.id}style={{ flexDirection: (project.id) ? 'row-reverse' : 'row' }}>
+          <div className="projectContainer" key={project.id}style={{ flexDirection: (project.id%2) ? 'row-reverse' : 'row' }}>
             <div className="projectDetailsBox">text</div>
             <div className="projectScreenShoots">iamges</div>
           </div>
