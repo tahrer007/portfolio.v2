@@ -19,6 +19,7 @@
   height: 100%;
   width: 45%;
   background-color: brown;
+  position: relative;
 }
 .screenShotsWraper{
   display: flex;

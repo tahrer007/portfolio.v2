@@ -1,0 +1,30 @@
+.text{
+
+}
+ .links{
+
+}
+.linkBtn{
+
+}
+
+
+.skillIconsBox{
+    height: 12%;
+    width:100% ;
+    background-color: chartreuse;
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  left:0
+    
+
+   
+}
+.skillIcon{
+    object-fit: fill;
+}
+
