@@ -1,0 +1,29 @@
+.projectsPage{
+ background-color: coral;
+ overflow-y: scroll;
+ justify-content: center;
+    justify-items: center;
+
+}
+.projectContainer{
+    height:80%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.projectDetailsBox{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.projectScreenShoots{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+
