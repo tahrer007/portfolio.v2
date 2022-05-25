@@ -80,3 +80,4 @@ const technologiesIcons = [
   },
 ];
 
+export {technologiesIcons,projectsData}
