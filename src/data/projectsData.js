@@ -11,7 +11,9 @@ const projectsData = [
     technologies: [0, 1, 2, 3, 9, 10],
     screenshots: [
       "https://i.ibb.co/qYSgbHY/Tadmit-3.jpg",
+      "https://i.ibb.co/0rbqjQ4/profile.jpg",
       "https://i.ibb.co/qYSgbHY/Tadmit-3.jpg",
+      "https://i.ibb.co/0rbqjQ4/profile.jpg",
     ],
   },
 ];
