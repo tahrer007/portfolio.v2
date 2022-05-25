@@ -10,10 +10,11 @@ const projectsData = [
     },
     technologies: [0, 1, 2, 3, 9, 10],
     screenshots: [
-      "https://i.ibb.co/qYSgbHY/Tadmit-3.jpg",
-      "https://i.ibb.co/0rbqjQ4/profile.jpg",
-      "https://i.ibb.co/qYSgbHY/Tadmit-3.jpg",
-      "https://i.ibb.co/0rbqjQ4/profile.jpg",
+      "https://i.ibb.co/4fq5FvS/spot-it-1.png",
+      "https://i.ibb.co/QpjYGBz/spot-it-2.png",
+      "https://i.ibb.co/Jk9CX0q/spot-it-3.png",
+      "https://i.ibb.co/xhPRczN/spot-it-4.png",
+      "https://i.ibb.co/dJq8dF9/spot-it-5.png",
     ],
   },
 ];
