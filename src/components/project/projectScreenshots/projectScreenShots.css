@@ -1,0 +1,10 @@
+.screenShotsWraper{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+.mainImage{
+    background-color: green;
+}
+.sideBtn{
+    background-color: aqua;
+}
