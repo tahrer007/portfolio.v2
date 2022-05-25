@@ -6,6 +6,7 @@
   background-color: blueviolet;
   top: 0;
   right: 0;
+  z-index: 2;
 }
 .navCircle {
   border: 3px;
