@@ -9,7 +9,7 @@ const ProjectScreenShots = ({ project }) => {
   const clickLeft = () =>
     mainImgIdx === 0 ? SetMainImgIdx(length - 1) : SetMainImgIdx(0);
 
-  //const selectImage =(index)=> SetMainImgIdx(index) 
+  //const selectImage =(index)=> SetMainImgIdx(index)
   return (
     <div className=" centerFlex screenShotsWraper">
       <div className="centerFlex sideBtn" onClick={clickLeft}>
@@ -23,17 +23,16 @@ const ProjectScreenShots = ({ project }) => {
         right
       </div>
       <div className="smallCorsela">
-        {
-          project?.screenshots.map((src,index)=>{
-           return  <div
-            key={index}
-            className="centerFlex background smallImage"
-            style={{ backgroundImage: `url(${src})` }}
-            onClick={()=>SetMainImgIdx(index)}
-            
-          ></div>
-          })
-        }
+        {project?.screenshots.map((src, index) => {
+          return (
+            <div
+              key={index}
+              className="centerFlex background smallImage"
+              style={{ backgroundImage: `url(${src})` }}
+              onClick={() => SetMainImgIdx(index)}
+            ></div>
+          );
+        })}
       </div>
     </div>
   );
