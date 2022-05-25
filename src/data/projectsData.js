@@ -30,51 +30,51 @@ const technologiesIcons = [
   },
 
   {
-    id: 0,
+    id: 2,
     alt: "sass",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
   },
   {
-    id: 0,
+    id: 3,
     alt: "javascript",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
   },
 
   {
-    id: 0,
+    id: 4,
     alt: "chartjs",
     src: "https://www.chartjs.org/media/logo-title.svg",
   },
   {
-    id: 0,
+    id: 5,
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
     alt: "react",
   },
   {
-    id: 0,
+    id: 6,
     src: "https://reactnative.dev/img/header_logo.svg",
     alt: "reactnative",
   },
 
   {
-    id: 2,
+    id: 7,
     alt: "express",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
   },
 
   {
-    id: 0,
+    id: 8,
     alt: "heroku",
     src: "https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg",
   },
   {
-    id: 0,
+    id: 9,
     alt: "nodejs",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
   },
 
   {
-    id: 0,
+    id: 10,
     alt: "mongodb",
     src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
   },
