@@ -1,6 +1,6 @@
 import React from "react";
 import "./personalDetails.css";
-import { aboutMe } from "../../data/AboutPageData";
+import { aboutMe } from "../../data/aboutPageData";
 
 const PersonalDetails = () => {
   const handleLink = (link) => window.open(link);
