@@ -27,8 +27,8 @@ const ProjectScreenShots = ({ project }) => {
           return (
             <div
               key={index}
-              className="centerFlex background smallImage"
-              style={{ backgroundImage: `url(${src})` }}
+              className={`centerFlex background smallImage ${(index===mainImgIdx) ? "selectedIcon" : ""}`}
+              style={{ backgroundImage: `url(${src})`}}
               onClick={() => SetMainImgIdx(index)}
             ></div>
           );

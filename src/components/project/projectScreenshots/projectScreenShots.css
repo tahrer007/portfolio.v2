@@ -33,6 +33,8 @@
   margin: 8px;
   position: relative;
 }
+.selectedIcon{
+}
 .smallImage:after {
   content: "";
 
