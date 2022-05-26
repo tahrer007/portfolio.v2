@@ -1,12 +1,16 @@
 import React from "react";
 import "./contactIcons.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const ContactIcons = () => {
   const handleLink = (link) => window.open(link);
 
   return (
     <div className="contactIcons">
-       contact icons  
-    </div>
+
+
+      test 
+    <FontAwesomeIcon icon="fa-brands fa-github" />    </div>
   );
 };
 
