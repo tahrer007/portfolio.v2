@@ -31,7 +31,7 @@ const ProjectScreenShots = ({ project }) => {
               style={{ backgroundImage: `url(${src})`}}
               onClick={() => SetMainImgIdx(index)}
             ></div>
-          );
+          )
         })}
       </div>
     </div>
