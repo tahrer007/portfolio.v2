@@ -2,7 +2,6 @@ import React from "react";
 import SkillCards from "../../components/skillCard/SkillCard";
 import PersonalDetails from "../../components/personalDetails/PersonalDetails";
 import  Chart  from "../../components/chart/Chart";
-import "../../app.css";
 import "./about.css";
 
 const AboutPage = () => {

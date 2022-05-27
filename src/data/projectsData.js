@@ -17,6 +17,7 @@ const projectsData = [
       "https://i.ibb.co/dJq8dF9/spot-it-5.png",
     ],
   },
+  
 ];
 
 const technologiesIcons = [

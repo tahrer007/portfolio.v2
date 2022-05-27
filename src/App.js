@@ -6,7 +6,7 @@ import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
 import NavBar from "./components/nav/NavBar";
-import "./app.css"
+import "./app.scss"
 
 const App = () => {
   return (
