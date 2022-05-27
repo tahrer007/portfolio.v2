@@ -4,7 +4,7 @@ import ContactIcons from "../../components/contacticons/ContactIcons";
 
 const ContactPage = () => {
   return <div className="pages contactPage">
-    <h1>Feel Free to contact me 😉</h1>
+    <h1>Let's get in touch 😉</h1>
         <ContactIcons/>
   </div>;
 };
