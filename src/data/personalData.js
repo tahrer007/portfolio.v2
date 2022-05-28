@@ -1,23 +1,23 @@
 const skillsDetails = [
   {
-    title: "Problem-solving skills",
-    details: "test2",
-    icon: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
+    title: "",
+    details: "not giveup till get to the target",
+    url: "https://cdn-icons-png.flaticon.com/512/2755/2755538.png",
   },
   {
-    title: "self skills",
-    details: "test2",
-    icon: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
+    title: "",
+    details: "Good team player",
+    url: "https://cdn-icons-png.flaticon.com/512/2755/2755492.png",
+  },
+  {
+    title: "",
+    details: "extraordenary problem solving skills",
+    url: "https://cdn-icons-png.flaticon.com/512/2755/2755348.png",
   },
   {
     title: "Team player",
     details: "test2",
-    icon: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
-  },
-  {
-    title: "Team player",
-    details: "test2",
-    icon: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
+    url: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
   },
 ];
 const skillsLabels = [

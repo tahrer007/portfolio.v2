@@ -13,6 +13,12 @@
   line-height: normal;
   background-color: $bgColor;
 
+  .bgImage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+  }
+
 
   .sections {
     width: 100%;
