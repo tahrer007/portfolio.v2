@@ -6,7 +6,7 @@ import "./about.css";
 
 const AboutPage = () => {
   return (
-    <div id="about" className="aboutPage">
+    <section id="about" className="aboutPage">
       <div className="title">
        
         <h1>about</h1>
@@ -16,7 +16,7 @@ const AboutPage = () => {
         <PersonalDetails/>
         <div className="skillsChart"><Chart/> </div>
       </div>
-    </div>
+    </section>
   );
 };
 
