@@ -1,6 +1,5 @@
 import React, { useState , useEffect } from "react";
-import { Link } from "react-router-dom";
-import "./nav.css";
+import "./nav.scss";
 
 const NavBar = () => {
   const [showMenu, setshowMenu] = useState(false);
@@ -33,18 +32,11 @@ const NavBar = () => {
           />
         </div>
         <div className="linkList">
-          <Link className="link" to="/" onClick={()=>setshowMenu(!showMenu)}>
-            Home
-          </Link>
-          <Link className="link" to="/about" onClick={()=>setshowMenu(!showMenu)}>
-            About
-          </Link>
-          <Link className="link" to="/projects" onClick={()=>setshowMenu(!showMenu)} >
-            projects
-          </Link>
-          <Link className="link" to="/contactme" onClick={()=>setshowMenu(!showMenu)}>
-            contact
-          </Link>
+        <a href={"#home"} onClick={()=>setshowMenu(!showMenu)}> home </a>
+        <a href={"#about"} onClick={()=>setshowMenu(!showMenu)}> about </a>
+        <a href={"#projects"} onClick={()=>setshowMenu(!showMenu)}> projects </a>
+        <a href={"#contact"} onClick={()=>setshowMenu(!showMenu)}> contact </a>
+          
       </div>
       </div>
     </div>
