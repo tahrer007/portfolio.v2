@@ -9,14 +9,15 @@
 .app {
   height: 100vh;
   font-family: $font;
-  line-height :normal;
+  line-height: normal;
 
   .sections {
-    //padding: $pagePadding;
     width: 100%;
     height: calc(100vh - #{$topBarHeight});
     background-color: $bgColor;
     color: $fontColor;
+    display: grid;
+    justify-content: center;
     position: relative;
     top: 0;
     scroll-snap-type: y mandatory;
@@ -27,8 +28,16 @@
     }
 
     > * {
-      width: 100vw;
+      max-width: 1200px;
       height: calc(100vh - #{$topBarHeight});
+      @media (max-width: $smallScreen) {
+        width: 100vw;
+       
+      }
     }
   }
 }
+
+
+
+  

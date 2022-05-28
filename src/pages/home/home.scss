@@ -1,16 +1,16 @@
 @import "../../global.scss";
 .homePage {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-areas: "left" "right" ;
-
-
+ display: flex;
+ flex-direction: row;
+ 
   > * {
+    height: 100%;
+    width: 50%;
   }
 
   .left {
-    background-color: green;
-    grid-area: left;
+    background-color: yellowgreen;
+    
   }
   .right {
     background-color: blue;
@@ -18,13 +18,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    grid-area: right;
+    //grid-area: right;
   }
 }
 
 @media (max-width: $smallScreen) {
   .homePage {
-    display: grid;
-  grid-template-areas: "left" "right" ;
+   flex-direction: column;
+  > *{
+    height: 50%;
+    width: 100%;
+   }
   }
 }
