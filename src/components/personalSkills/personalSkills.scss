@@ -1,28 +1,27 @@
-.skillCard{
-    width: 10%;
-    height: 100%;
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
+.skillCard {
+  width: 15%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > * {
     text-align: center;
-}
-.iconBox{
-    width: 100%;
-    height: 50%;
+  }
+
+  .icon {
+    width: 60%;
+    height: 60%;
     background-color: green;
-    border: 1px solid ;
-}
-.iconBox img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.cardTitle{
+    border: 1px solid;
+  }
+
+  .description {
     width: 100%;
-    height: 20%;
+    height: 40%;
     background-color: grey;
-}
-.skillDetails{
-    width: 100%;
-    height: 30%;
-    background-color: silver;
+  }
+
+  
 }

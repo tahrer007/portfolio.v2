@@ -16,9 +16,9 @@ const PersonalSkills =()=>{
                 <div className="skillCard"
                 key={index}
                 >  
-                <div className="iconBox"> <img src={skill.icon} alt={skill.title}/></div>
-                <div className="cardTitle">{skill.title}</div>
-                <div className="skillDetails">{skill.details}</div>
+                <div className="icon">test</div>
+                <div className="description">test ss</div>
+                
                 
                 </div> 
             )
