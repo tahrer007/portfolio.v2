@@ -9,16 +9,60 @@
   }
 
   .left {
-    background-color: yellowgreen;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .p1 {
+      font-size: 1.3rem;
+    }
+    .p2 {
+      font-size: 2.8rem;
+      color: $mainColor;
+     // box-shadow: $boxShadow;
+      font-weight: 800;
+    }
+    .p3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    .resumeBtn{
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: $fontColor;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.75;
+      border-radius: 4px;
+      max-width:fit-content;
+      font-weight: 600;
+      background-color: $mainColor;
+      cursor: pointer;
+      margin-top: 1.5rem;
+       padding: 10px 20px;
+
+      .icon{
+        width: 20px;
+        height: 20px;
+        fill: $fontColor;
+        padding-left:10px;
+
+      }
+    }
+
   }
   .right {
-    background-color: blue;
     width: 40%;
     background-image: url("../../../public/coding-animate.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+
+    
   }
 
   //grid-area: right;
@@ -35,6 +79,7 @@
     .left {
       height: 60%;
       width: 100%;
+      padding-left: 10px;
     }
     .right {
       height: 40%;

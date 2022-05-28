@@ -1,8 +1,8 @@
 @import "../../global.scss";
 .topBar {
   height: $topBarHeight;
-  width: 100vw;
-  background-color: red;
+  //width: 100vw;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
