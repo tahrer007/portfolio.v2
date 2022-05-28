@@ -7,7 +7,7 @@ const HomePage = () => {
     //resultRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div className="pages homePage">
+    <div className="sections homePage">
       <div> Hello, I'm Tahrer Abu Diab. I'm a full-stack web developer.</div>
       <button onClick={handleClick}> view my work</button>
     </div>

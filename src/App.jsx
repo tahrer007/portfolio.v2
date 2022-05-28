@@ -10,18 +10,14 @@ import "./app.scss"
 
 const App = () => {
   return (
-    <div className="appContainer">
-      
-  <BrowserRouter>
+  <div className="app">   
   <NavBar/>
- <Routes>
-   <Route path="/" element={<HomePage />} />
-   <Route path="/contactme" element={<ContactPage />} />
-   <Route path="/about" element={<AboutPage />} />
-   <Route path="/projects" element={<ProjectsPage />} />
-   <Route path="*" element={<ErrorPage />} />
- </Routes>
-</BrowserRouter>
+  <HomePage/>
+  <AboutPage/>
+  <ProjectsPage/>
+  <ContactPage/>
+  
+ 
 </div>);
 };
 

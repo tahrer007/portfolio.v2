@@ -3,7 +3,7 @@ import "./errorPage.css" ;
 
 
 function ErrorPage() {
-  return <div className='pages'>
+  return <div className='sections'>
     <h1 className="no-match">Page Not Found!</h1>
   </div>;
 }

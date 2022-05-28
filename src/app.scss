@@ -2,7 +2,38 @@
   margin: 0;
   padding: 0;
 }
-.appContainer {
+
+:root{
+  /*$backgroundColor: #191d24;
+  $mainColor: #35bf65;
+  $hoverMainColor: #3bd672;
+  $fontColor: #eae3dc;
+  $fontColor2: #21262f;
+  $boxShadow: -10px 10px 20px -4px rgba(0,0,0,.55);
+  $pagePadding: 1rem 5rem;*/
+}
+$bgColor: #191d24;
+  $mainColor: #35bf65;
+  $hoverMainColor: #3bd672;
+  $fontColor: #eae3dc;
+  $fontColor2: #21262f;
+  $boxShadow: -10px 10px 20px -4px rgba(0,0,0,.55);
+  $pagePadding: 1rem 5rem;
+
+.app {
+  height: 100vh;
+  .sections{
+    width: 100%;
+    height: 100%;
+    background-color: $bgColor;
+    color:$fontColor ;
+    position: relative;
+    top: 0;
+
+  }
+
+}
+/*.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +41,8 @@
   height: 100vh;
   width: 100vw;
 }
-/*general pages sittings */
-.pages {
+general pages sittings */
+/*.pages {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -29,4 +60,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
