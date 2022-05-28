@@ -1,10 +1,10 @@
-import React, { useState ,useRef, useEffect } from "react";
+import React, { useState , useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
 const NavBar = () => {
   const [showMenu, setshowMenu] = useState(false);
-  const test = useRef();
+  
 
   useEffect(()=>{
     

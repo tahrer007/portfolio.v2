@@ -29,6 +29,10 @@ $bgColor: #191d24;
     color:$fontColor ;
     position: relative;
     top: 0;
+    > *{
+      width: 100vw;
+      height: 100vh;
+    }
 
   }
 

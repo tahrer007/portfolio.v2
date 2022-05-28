@@ -1,5 +1,5 @@
 import React  from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/home/HomePage";
 import ContactPage from "./pages/contact/ContactPage";
 import ProjectsPage from "./pages/projects/ProjectsPage";
@@ -11,7 +11,7 @@ import "./app.scss"
 const App = () => {
   return (
   <div className="app">   
-  <NavBar/>
+  {/*<NavBar/>*/}
   <HomePage/>
   <AboutPage/>
   <ProjectsPage/>
