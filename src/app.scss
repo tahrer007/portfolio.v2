@@ -2,41 +2,32 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden ;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
-
-:root{
-  /*$backgroundColor: #191d24;
-  $mainColor: #35bf65;
-  $hoverMainColor: #3bd672;
-  $fontColor: #eae3dc;
-  $fontColor2: #21262f;
-  $boxShadow: -10px 10px 20px -4px rgba(0,0,0,.55);
-  $pagePadding: 1rem 5rem;*/
-}
-
 
 .app {
   height: 100vh;
-  .sections{
+  font-family: $font;
+
+  .sections {
+    //padding: $pagePadding;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - #{$topBarHeight});
     background-color: $bgColor;
-    color:$fontColor ;
+    color: $fontColor;
     position: relative;
     top: 0;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
-    
-    > *{
+
+    > * {
       width: 100vw;
-      height: calc(100vh - 70px);
+      height: calc(100vh - #{$topBarHeight});
     }
-
   }
-
 }

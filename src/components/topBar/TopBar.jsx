@@ -1,16 +1,14 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./topBar.scss";
+import ContactIcons from "../contacticons/ContactIcons";
 
 const TopBar = () => {
   
-
-  useEffect(()=>{
-    
-  },[])
   return (
-    <div className="topBar">
-      
-    </div>
+    <header className="topBar">
+      <ContactIcons />
+      <h1 className="copyRights"> ©Tahrer Abu Diab</h1>
+    </header>
   );
 };
 

@@ -1,5 +1,21 @@
-.topBar{
-    height: 70px;
-    width: 100vw;
-    background-color: red;
+@import "../../global.scss";
+.topBar {
+  height: $topBarHeight;
+  width: 100vw;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: $fontColor;
+  font-size: 1.2rem;
+
+  :first-child {
+    max-width: 50%;
+    height: 90%;
+  }
+
+  .copyRights {
+    line-height :normal;
+  }
 }
