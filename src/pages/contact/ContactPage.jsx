@@ -3,7 +3,7 @@ import "./contact.css";
 import ContactIcons from "../../components/contacticons/ContactIcons";
 
 const ContactPage = () => {
-  return <div className="contactPage">
+  return <div id="contact" className="contactPage">
     <h1>Let's get in touch 😉</h1>
         <ContactIcons/>
 
