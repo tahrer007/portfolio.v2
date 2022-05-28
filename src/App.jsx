@@ -5,13 +5,14 @@ import ContactPage from "./pages/contact/ContactPage";
 import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import ErrorPage from "./pages/errorPage/ErrorPage";
-import NavBar from "./components/nav/NavBar";
+
+import TopBar from "./components/topBar/TopBar";
 import "./app.scss";
 
 const App = () => {
   return (
     <div className="app">
-      <NavBar />
+      <TopBar/>
       <div className="sections">
         <HomePage />
         <AboutPage />
