@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./home.scss";
 
 const HomePage = () => {
   const handleClick = (e) => {
@@ -8,6 +8,8 @@ const HomePage = () => {
   };
   return (
     <div id="home" className="homePage">
+      <div className="right">left</div>
+      <div className="left">left</div>
       <div> Hello, I'm Tahrer Abu Diab. I'm a full-stack web developer.</div>
       <button onClick={handleClick}> view my work</button>
     </div>

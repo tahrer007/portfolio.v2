@@ -17,6 +17,42 @@ const projectsData = [
       "https://i.ibb.co/dJq8dF9/spot-it-5.png",
     ],
   },
+  {
+    id: 2,
+    title: "project Title",
+    description:
+      "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",
+    links: {
+      code: "https://github.com/tahrer007/spot-it-web",
+      website: "https://spot-it-2022.herokuapp.com/",
+    },
+    technologies: [0, 1, 2, 3, 9, 10],
+    screenshots: [
+      "https://i.ibb.co/4fq5FvS/spot-it-1.png",
+      "https://i.ibb.co/QpjYGBz/spot-it-2.png",
+      "https://i.ibb.co/Jk9CX0q/spot-it-3.png",
+      "https://i.ibb.co/xhPRczN/spot-it-4.png",
+      "https://i.ibb.co/dJq8dF9/spot-it-5.png",
+    ],
+  },
+  {
+    id: 3,
+    title: "project Title",
+    description:
+      "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",
+    links: {
+      code: "https://github.com/tahrer007/spot-it-web",
+      website: "https://spot-it-2022.herokuapp.com/",
+    },
+    technologies: [0, 1, 2, 3, 9, 10],
+    screenshots: [
+      "https://i.ibb.co/4fq5FvS/spot-it-1.png",
+      "https://i.ibb.co/QpjYGBz/spot-it-2.png",
+      "https://i.ibb.co/Jk9CX0q/spot-it-3.png",
+      "https://i.ibb.co/xhPRczN/spot-it-4.png",
+      "https://i.ibb.co/dJq8dF9/spot-it-5.png",
+    ],
+  },
   
 ];
 
