@@ -1,18 +1,29 @@
-.homePage{
-    display: flex;
-    flex-direction: row;
+@import "../../global.scss";
+.homePage {
+  display: grid;
+  grid-template-areas: "left" "right" ;
 
-    > * {
-        
-      }
 
-    .left{
+  > * {
+  }
 
-    }
-    .right{
+  .left {
+    background-color: green;
+    grid-area: left;
+  }
+  .right {
+    background-color: blue;
+    background-image: url("../../../public/coding-animate.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: right;
+  }
+}
 
-    }
-
-    
-   
+@media (max-width: $smallScreen) {
+  .homePage {
+    display: grid;
+  grid-template-areas: "left" "right" ;
+  }
 }

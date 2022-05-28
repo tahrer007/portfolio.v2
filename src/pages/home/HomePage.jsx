@@ -12,7 +12,9 @@ const HomePage = () => {
         <div> Hello, I'm Tahrer Abu Diab. I'm a full-stack web developer.</div>
         <button onClick={handleClick}> view my work</button>
       </div>
-      <div className="right">left</div>
+      <div className="right">
+
+      </div>
     </div>
   );
 };
