@@ -8,7 +8,10 @@ import "./about.scss";
 const AboutPage = () => {
   return (
     <section id="about" className="about">
+      <div className="title">
       <h1>About Me</h1>
+      </div>
+      
       <PersonalSkills/>
       <div className="lowerContainer">
         <PersonalDetails />

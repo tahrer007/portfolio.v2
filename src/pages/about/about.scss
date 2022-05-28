@@ -7,26 +7,43 @@
   > * {
     width: 100%;
   }
-
-  h1 {
-    font-size: 2rem;
-    text-align: center;
+  .title {
+    height: 10%;
+    vertical-align: baseline;
+    overflow: hidden;
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+    }
   }
+
   .personalSkills {
     display: flex;
     flex-direction: row;
-    height: 15%;
+    height: 20%;
     background-color: greenyellow;
   }
 
   .lowerContainer {
-    height: 72%;
+    height: 70%;
     background-color: chocolate;
     display: flex;
+    justify-content: center;
+    align-content: center;
 
     > * {
       width: 50%;
       height: 100%;
+    }
+
+    .technicalSkills {
+      align-self: center;
+      display: grid;
+      height: 60%;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-content: center;
+      align-content: center;
     }
   }
   @media (max-width: $smallScreen) {
@@ -38,39 +55,13 @@
 
       > * {
         width: 100%;
-       
       }
-      .personalDetails{
+      .personalDetails {
         height: 60%;
       }
-      .technicalSkills{
+      .technicalSkills {
         height: 40%;
-
       }
     }
   }
 }
-
-/*.personalSkills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 20%;
-  background-color: gold;
-}
-
-.detailsContainer {
-  width: 100%;
-  height: 70%;
-  background-color: green;
-  display: flex;
-  flex-direction: row;
-}
-
-.skillsIcons {
-  width: 60%;
-  height: 100%;
-  background-color: coral;
-}*/

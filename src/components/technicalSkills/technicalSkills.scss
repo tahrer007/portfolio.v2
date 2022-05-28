@@ -1,0 +1,46 @@
+@import "../../global.scss";
+
+
+    .card{
+        
+        fill: $fontColor;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-sizing: border-box;
+        > * {
+
+        }
+
+        .icon{      
+            width: 30px;
+            height: 30px;
+            fill: $fontColor;
+        }
+
+        .name{
+            font-family: $font;
+            font-weight: 600;
+            font-size: 0.875rem;
+            line-height: 1.43;
+        }
+
+        @media (max-width : $smallScreen) {
+            .icon{      
+                width: 24px;
+                height: 24px;
+            }
+    
+            .name{
+                font-size: 12px;
+            }
+    
+            font-size: 18px;
+        }
+
+    }
+    
+    
