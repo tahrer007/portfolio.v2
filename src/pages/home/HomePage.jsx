@@ -3,9 +3,9 @@ import "./home.scss";
 
 const HomePage = () => {
   const handleClick = (e) => {
+    //https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view?usp=sharing
     //e.preventDefault();
-    //resultRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+  }
   return (
     <section id="home" className="homePage">
       <div className="left">

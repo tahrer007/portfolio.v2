@@ -9,6 +9,7 @@
   align-items: center;
   color: $fontColor;
   font-size: 1.2rem;
+  z-index: 10;
 
   :first-child {
     max-width: 20%;

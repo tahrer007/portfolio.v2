@@ -1,8 +1,8 @@
 @import "../../global.scss";
 .homePage {
- display: flex;
- flex-direction: row;
- 
+  display: flex;
+  flex-direction: row;
+
   > * {
     height: 100%;
     width: 50%;
@@ -10,24 +10,35 @@
 
   .left {
     background-color: yellowgreen;
-    
+    width: 60%;
   }
   .right {
     background-color: blue;
+    width: 40%;
     background-image: url("../../../public/coding-animate.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    //grid-area: right;
   }
+
+  //grid-area: right;
+}
+.homeImage {
 }
 
 @media (max-width: $smallScreen) {
   .homePage {
-   flex-direction: column;
-  > *{
-    height: 50%;
-    width: 100%;
-   }
+    flex-direction: column;
+    > * {
+      width: 100%;
+    }
+    .left {
+      height: 60%;
+      width: 100%;
+    }
+    .right {
+      height: 40%;
+      width: 100%;
+    }
   }
 }
