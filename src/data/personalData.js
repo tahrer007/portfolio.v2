@@ -61,7 +61,8 @@ const skillsPercentages = [
   
   
 ];
+const resumeLink= "https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view"
 
 const aboutMe =
   "Hi, my name is Tahrer and I’m a Full-Stack Developer, with a great passion for coding and developing new practical websites.";
-export { skillsDetails, aboutMe, skillsLabels ,skillsPercentages};
+export { skillsDetails, aboutMe, skillsLabels ,skillsPercentages ,resumeLink};

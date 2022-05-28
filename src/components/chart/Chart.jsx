@@ -9,7 +9,7 @@ import {
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
-import { skillsPercentages } from "../../data/aboutPageData";
+import { skillsPercentages } from "../../data/personalData";
 
 ChartJS.register(
   CategoryScale,

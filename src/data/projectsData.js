@@ -120,4 +120,6 @@ const technologiesIcons = [
   },
 ];
 
+const resumeLink= "https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view"
+
 export { technologiesIcons, projectsData };

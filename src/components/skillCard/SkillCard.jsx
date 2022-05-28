@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./skillCards.css";
-import {skillsDetails} from "../../data/aboutPageData"
+import {skillsDetails} from "../../data/personalData"
 
 
 const SkillCards =()=>{
