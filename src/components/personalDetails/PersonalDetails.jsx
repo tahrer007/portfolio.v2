@@ -10,13 +10,7 @@ const PersonalDetails = () => {
       <div className="profilePic"></div>
 
       <div className="pDetails">{aboutMe}</div>
-      <div>
-      <button className="linkBtn" onClick={() => handleLink("test!!!")}>
-        Download Resume
-      </button>
-      icons   
-
-      </div>
+     
     </div>
   );
 };

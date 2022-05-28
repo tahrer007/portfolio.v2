@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
-import "./skillCards.css";
+import "./personalSkills.scss";
 import {skillsDetails} from "../../data/personalData"
 
 
-const SkillCards =()=>{
+const PersonalSkills =()=>{
     useEffect(()=>{
         console.log(skillsDetails[0].title);
     },[])
 
-    return (<div className="skillsIconsContainer"> 
+    return (<div className="personalSkills"> 
     
     {
         skillsDetails.map((skill,index)=>{
@@ -28,4 +28,4 @@ const SkillCards =()=>{
     
     </div>)
 }
-export default SkillCards ; 
+export default PersonalSkills ; 

@@ -1,20 +1,18 @@
 import React from "react";
-import SkillCards from "../../components/skillCard/SkillCard";
+import PersonalSkills from "../../components/personalSkills/PersonalSkills";
 import PersonalDetails from "../../components/personalDetails/PersonalDetails";
-import  Chart  from "../../components/chart/Chart";
-import "./about.css";
+import TechnicalSkills from "../../components/technicalSkills/TechnicalSkills";
+import "./about.scss";
+
 
 const AboutPage = () => {
   return (
-    <section id="about" className="aboutPage">
-      <div className="title">
-       
-        <h1>about</h1>
-      </div>
-      <SkillCards />
-      <div className="detailsContainer">
-        <PersonalDetails/>
-        <div className="skillsChart"><Chart/> </div>
+    <section id="about" className="about">
+      <h1>About Me</h1>
+      <PersonalSkills/>
+      <div className="lowerContainer">
+        <PersonalDetails />
+        <TechnicalSkills/>
       </div>
     </section>
   );
