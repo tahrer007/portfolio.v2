@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./projectScreenShots.css";
+import "./projectScreenShots.scss";
 
 const ProjectScreenShots = ({ project }) => {
   const length = project.screenshots.length;

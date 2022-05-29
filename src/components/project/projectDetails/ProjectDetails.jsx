@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./projectDetails.css";
+import "./projectDetails.scss";
 import { technologiesIcons } from "../../../data/projectsData";
 
 const ProjectDetails = ({ project }) => {

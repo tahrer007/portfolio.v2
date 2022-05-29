@@ -11,7 +11,7 @@ import { technologiesIcons, projectsData } from "../../data/projectsData";
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className="projectsPage">
+    <section id="projects" className=" sections projectsPage">
       {projectsData.map((project) => {
         return (
           <div
