@@ -17,7 +17,7 @@ const ProjectDetails = ({ project }) => {
     <div className="projectDetailsWraper">
       <div className="text">
         <h3>{project.title}</h3>
-        <section>{project.description} </section>
+        <section className="discriptions">{project.description} </section>
       </div>
       <div className="linkes">
         <button
