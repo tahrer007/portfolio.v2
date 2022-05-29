@@ -15,34 +15,40 @@
   border: 1px solid red;
 
   .text {
-    .discriptions{
-        padding: 0.5em 0;
-        line-height: 1.3;
+    .discriptions {
+      padding: 0.5em 0;
+      line-height: 1.3;
     }
-  
+  }
 
-}
-  
-  
-  .links {
+  .btnsWraper {
+    background-color: aqua;
+
+    margin-bottom: 0.5em;
+    .repoBtn {
+    }
+    .websiteBtn {
+    }
   }
-  .linkBtn {
-  }
-}
+
 
 .skillIconsBox {
-  height: 15%;
-  width: 100%;
+  height: 17%;
+  width: fit-content;
   //align-self: flex-start;
   background-color: chartreuse;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
- // position: absolute;
- //@at-root bottom:0.5em;
-  //bottom:0.5em;
- // bottom:0.5em;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  left: 0.5em;
+  padding: 0.3em;
+
+  .skillIcon {
+    object-fit: fill;
+    padding-right: 0.2em;
+  }
 }
-.skillIcon {
-  object-fit: fill;
 }

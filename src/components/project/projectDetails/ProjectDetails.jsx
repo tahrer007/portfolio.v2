@@ -19,15 +19,15 @@ const ProjectDetails = ({ project }) => {
         <h3>{project.title}</h3>
         <section className="discriptions">{project.description} </section>
       </div>
-      <div className="linkes">
+      <div className="btnsWraper">
         <button
-          className="linkBtn"
+          className="repoBtn"
           onClick={() => handleLink(project.links.website)}
         >
           View Site
         </button>
         <button
-          className="linkBtn"
+          className="websiteBtn"
           onClick={() => handleLink(project.links.code)}
         >
           Repo
