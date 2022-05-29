@@ -21,13 +21,13 @@ const ProjectDetails = ({ project }) => {
       </div>
       <div className="btnsWraper">
         <button
-          className="repoBtn"
+          className="btn repoBtn"
           onClick={() => handleLink(project.links.website)}
         >
           View Site
         </button>
         <button
-          className="websiteBtn"
+          className="btn websiteBtn"
           onClick={() => handleLink(project.links.code)}
         >
           Repo
