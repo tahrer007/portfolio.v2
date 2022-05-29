@@ -2,23 +2,43 @@
 
 .screenShotsWraper {
   display: grid;
-  grid-template-columns: 10% 80% 10%;
+  grid-template-columns: 5% 90% 5%;
   grid-template-rows: 90% 10%;
+  box-sizing: border-box;
+
+  .sideBtn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+      fill: $fontColor2; 
+    }
+    visibility: hidden;
+
+    
+  }
+  &:hover{
+    .sideBtn{
+      visibility: visible;
+    }
+  }
+
+
+
+
 }
 .background {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .mainImage {
   background-color: green;
   height: 90%;
   width: 100%;
 }
-.sideBtn {
-  background-color: aqua;
-  cursor: pointer;
-}
+
 .smallCorsela {
   background-color: blueviolet;
   grid-column: 2 / 3;
