@@ -1,26 +1,20 @@
 @import "../../global.scss";
 
 .projectsPage {
-  background-color: coral;
-  //height: fit-content;
 
+  .projectContainer {
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(55,63,80,.25);
+
+  }
+  
 }
-.projectContainer {
-  height: 100%;
-  width: 90%;
-  display: flex;
-  justify-content: space-around;
-  margin: 2em;
-  background-color: red;
-}
-.projectDetailsBox {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 45%;
-  background-color: brown;
-  position: relative;
-}
+
 .screenShotsWraper{
   display: flex;
   flex-direction: column;

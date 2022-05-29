@@ -14,7 +14,7 @@ const ProjectDetails = ({ project }) => {
   }, [project?.technologies]);
 
   return (
-    <div className="projectDetailsBox">
+    <div className="projectDetailsWraper">
       <div className="text">
         <h3>{project.title}</h3>
         <section>{project.description} </section>
