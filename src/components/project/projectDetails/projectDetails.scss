@@ -28,22 +28,11 @@
     .btn {
       padding: 5px;
       border-radius: 10px;
-      border: 2px solid $mainColor;
-      background-color: $mainColor;
-      color: $fontColor;
       cursor: pointer;
-      box-shadow: $boxShadow;
-      transition: all 1s ease;
-      transform: scale(1);
-      &::before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0;
-      }
+      border: 1px solid #303030;
+      background: #212121;
+      color: $mainColor;
+      border-radius: 20px;
     }
   }
 
