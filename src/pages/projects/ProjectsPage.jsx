@@ -1,5 +1,5 @@
 import React from "react";
-import "./projects.css";
+import "./projects.scss";
 import ProjectDetails from "../../components/project/projectDetails/ProjectDetails";
 import ProjectScreenShots from "../../components/project/projectScreenshots/ProjectScreenShots";
 import { technologiesIcons, projectsData } from "../../data/projectsData";
