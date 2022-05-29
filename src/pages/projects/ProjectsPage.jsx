@@ -14,7 +14,7 @@ const ProjectsPage = () => {
     <section id="projects" className="projectsPage">
       <h1>Projects</h1>
 
-      {/*{projectsData.map((project) => {
+      {projectsData.map((project) => {
         return (
           <div
             key={project.id}
@@ -25,7 +25,7 @@ const ProjectsPage = () => {
             <ProjectScreenShots project={project} />
           </div>
         );
-      })}*/}
+      })}
     </section>
   );
 };
