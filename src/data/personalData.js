@@ -15,9 +15,9 @@ const skillsDetails = [
     url: "https://cdn-icons-png.flaticon.com/512/2755/2755348.png",
   },
   {
-    title: "Team player",
-    details: "test2",
-    url: "https://cdn-icons-png.flaticon.com/512/3078/3078951.png",
+    title: "",
+    details: "high ability to selfstudy",
+    url: "https://cdn-icons-png.flaticon.com/512/2755/2755387.png",
   },
 ];
 const skillsLabels = [

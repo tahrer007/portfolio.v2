@@ -1,6 +1,6 @@
 @import "../../global.scss";
 .about {
-  background-color: burlywood;
+ 
   flex-direction: column;
   justify-content: center;
 
@@ -24,8 +24,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 20%;
-    background-color: greenyellow;
+    min-height: 20%;
+    flex-wrap: wrap;
   }
 
   .lowerContainer {

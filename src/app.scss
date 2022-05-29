@@ -44,11 +44,11 @@
 
     > * {
       max-width: 1200px;
-      height: calc(100vh - #{$topBarHeight});
-      @media (max-width: $smallScreen) {
+      min-height: calc(100vh - #{$topBarHeight});
+      /*@media (max-width: $smallScreen) {
         width: 100vw;
        
-      }
+      }*/
     }
   }
 }
