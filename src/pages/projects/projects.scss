@@ -10,16 +10,14 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgba(55,63,80,.25);
+    background-color: rgba(55, 63, 80, 0.25);
     margin-bottom: 1em;
-
   }
-  
 }
-
-.screenShotsWraper{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 45%;
+@media (max-width: $smallScreen) {
+  .projectContainer {
+    flex-direction: column-reverse;
+    width: 98%;
+    min-height: calc(100vh - #{$topBarHeight});
+  }
 }

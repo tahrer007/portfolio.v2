@@ -18,7 +18,7 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     title: "project Title",
     description:
       "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",
@@ -36,7 +36,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "project Title",
     description:
       "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",

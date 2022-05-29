@@ -19,7 +19,7 @@ const ProjectsPage = () => {
           <div
             key={project.id}
             className="projectContainer"
-            style={{ flexDirection: project.id % 2 ? "row" : "row-reverse" }}
+            //style={{ flexDirection: project.id % 2 ? "row" : "row-reverse" }}
           >
             <ProjectDetails project={project} />
             <ProjectScreenShots project={project} />
