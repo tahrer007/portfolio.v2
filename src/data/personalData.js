@@ -16,7 +16,7 @@ const skillsDetails = [
   },
   {
     title: "",
-    details: "Learning and working against the clock",
+    details: "Learning & working against the clock",
     url: "https://cdn-icons-png.flaticon.com/512/4727/4727565.png",
   },
 ];

@@ -11,8 +11,10 @@ import { technologiesIcons, projectsData } from "../../data/projectsData";
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className=" sections projectsPage">
-      {projectsData.map((project) => {
+    <section id="projects" className="projectsPage">
+      <h1>Projects</h1>
+
+      {/*{projectsData.map((project) => {
         return (
           <div
             key={project.id}
@@ -23,7 +25,7 @@ const ProjectsPage = () => {
             <ProjectScreenShots project={project} />
           </div>
         );
-      })}
+      })}*/}
     </section>
   );
 };
