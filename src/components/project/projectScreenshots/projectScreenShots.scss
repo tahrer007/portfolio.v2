@@ -11,22 +11,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    svg{
-      fill: $fontColor2; 
+    svg {
+      fill: $fontColor2;
     }
     visibility: hidden;
-
-    
   }
-  &:hover{
-    .sideBtn{
+  &:hover {
+    .sideBtn {
       visibility: visible;
     }
   }
-
-
-
-
 }
 .background {
   background-repeat: no-repeat;
@@ -55,7 +49,7 @@
   margin: 8px;
   position: relative;
 }
-.selectedIcon{
+.selectedIcon {
 }
 .smallImage:after {
   content: "";
