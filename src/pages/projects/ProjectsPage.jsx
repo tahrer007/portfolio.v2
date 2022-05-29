@@ -12,7 +12,7 @@ import { technologiesIcons, projectsData } from "../../data/projectsData";
 const ProjectsPage = () => {
   return (
     <section id="projects" className="projectsPage">
-      <h1>Projects</h1>
+      <h1>Portfolio</h1>
 
       {projectsData.map((project) => {
         return (
