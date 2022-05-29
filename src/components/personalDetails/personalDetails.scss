@@ -11,10 +11,7 @@
 
 
   > *{
-      /*width: 20px;
-      height: 20px;
-      background-color: red;
-      margin: 10px;*/
+    font-size: $fontSize;
 
   }
 
@@ -30,16 +27,18 @@
     width: 90%;
     text-align: center;
     padding: $textPadding;
-    font-size: $fontSize;
+    //font-size: $fontSize;
     font-weight: 500;
     
   }
-  //resume button
-  .personalDetails:last-child{
-    height: 7%;
-  }
+  
 
   @media (max-width :$smallScreen ) {
+
+    > * {
+      font-size: $fontSizeMobile;
+
+    }
     .profilePic {
       width: 30vmin;
       height: 30vmin;
@@ -54,9 +53,7 @@
   
 
   }
-  .personalDetails:last-child{
-    height: 3%;
-  }
+  
 
 
 }
