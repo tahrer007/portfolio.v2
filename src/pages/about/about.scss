@@ -1,6 +1,5 @@
 @import "../../global.scss";
 .about {
- 
   flex-direction: column;
   justify-content: center;
 
@@ -9,7 +8,7 @@
   }
   .title {
     height: 10%;
-   display: flex;
+    display: flex;
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,6 @@
 
   .lowerContainer {
     height: 70%;
-    background-color: chocolate;
     display: flex;
     justify-content: center;
     align-content: center;

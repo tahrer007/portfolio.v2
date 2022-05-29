@@ -4,13 +4,14 @@
     .card{
         
         fill: $fontColor;
-        background-color: blueviolet;
+       
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         overflow: hidden;
         box-sizing: border-box;
+        box-shadow: $boxShadow;
         > * {
 
         }
