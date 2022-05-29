@@ -19,6 +19,11 @@ const ProjectDetails = ({ project }) => {
         <h3>{project.title}</h3>
         <section className="discriptions">{project.description} </section>
       </div>
+      <div>
+
+
+        
+      </div>
       <div className="btnsWraper">
         <button
           className="btn repoBtn"

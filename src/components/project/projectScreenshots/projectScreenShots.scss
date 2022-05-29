@@ -8,13 +8,19 @@
   align-items: center;
   justify-content: center;
 
+ .corselaBg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
   .sideBtn {
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     svg {
-      fill: $fontColor2;
+      fill: $fontColor;
     }
     visibility: hidden;
   }
@@ -27,9 +33,6 @@
   .mainImage {
     height: 90%;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
   }
 
   .smallCorsela {
@@ -43,10 +46,11 @@
       width: 5vmin;
       height: 5vmin;
       margin-right: 5px;
-     
-    
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      border: 1px solid $fontColor;
     }
-    
   }
 }
 

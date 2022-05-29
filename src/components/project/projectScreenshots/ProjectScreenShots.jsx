@@ -22,7 +22,7 @@ const ProjectScreenShots = ({ project }) => {
         </svg>
       </div>
       <div
-        className="centerFlex  background mainImage"
+        className="centerFlex  corselaBg mainImage"
         style={{ backgroundImage: `url(${project?.screenshots[mainImgIdx]})` }}
       ></div>
       <div className="centerFlex sideBtn" onClick={clickRight}>
@@ -35,7 +35,7 @@ const ProjectScreenShots = ({ project }) => {
           return (
             <div
               key={index}
-              className={`centerFlex background smallImage ${
+              className={`centerFlex corselaBg smallImage ${
                 index === mainImgIdx ? "selectedIcon" : ""
               }`}
               style={{ backgroundImage: `url(${src})` }}
