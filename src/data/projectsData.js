@@ -8,7 +8,7 @@ const projectsData = [
       code: "https://github.com/tahrer007/spot-it-web",
       website: "https://spot-it-2022.herokuapp.com/",
     },
-    technologies: [1, 3, 5,9, 10,8],
+    technologies: [1, 3, 5, 9, 10, 8],
     screenshots: [
       "https://i.ibb.co/4fq5FvS/spot-it-1.png",
       "https://i.ibb.co/QpjYGBz/spot-it-2.png",
@@ -26,7 +26,7 @@ const projectsData = [
       code: "https://github.com/tahrer007/mid-project",
       website: "https://tahrer-mid-project.netlify.app/",
     },
-    technologies: [1,3,5],
+    technologies: [1, 3, 5],
     screenshots: [
       "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/start.png",
       "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/levels.png",
@@ -40,8 +40,8 @@ const projectsData = [
     id: 2,
     title: "Minecraft-2d",
     description:
-    "In this game, you can choose the appropriate tool such as a shovel for the ground, a pickaxe for rocks, and an ax for the trees. You can also put the last item you removed in any empty place.also, I used sound effects for each tool, building and using wrong tool.",
-        links: {
+      "In this game, you can choose the appropriate tool such as a shovel for the ground, a pickaxe for rocks, and an ax for the trees. You can also put the last item you removed in any empty place.also, I used sound effects for each tool, building and using wrong tool.",
+    links: {
       code: "https://github.com/tahrer007/spot-it-web",
       website: "https://github.com/tahrer007/apple",
     },
@@ -54,11 +54,26 @@ const projectsData = [
     ],
   },
   {
+    id: 3,
+    title: "Dice Game",
+    description:
+      "This game is React app. two players play with a dice each player can roll the dice or change turns until reaching the target. This is my first react app.",
+    links: {
+      code: "https://github.com/tahrer007/dice-game-2021",
+      website: "https://app.netlify.com/sites/tahrer-dice-game/overview",
+    },
+    technologies: [1, 2, 4, 5],
+    screenshots: [
+      "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/1.png",
+      "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/2.png",
+    ],
+  },
+  {
     id: 4,
     title: "Apple Clone",
     description:
-    "In This project, I cloned the apple website. Apple clone is one of my first projects. I used my basic skills in CSS and HTML to clone the pages and animations.",
-        links: {
+      "In This project, I cloned the apple website. Apple clone is one of my first projects. I used my basic skills in CSS and HTML to clone the pages and animations.",
+    links: {
       code: "https://github.com/tahrer007/apple",
       website: "https://apple-clone-2021.netlify.app/",
     },
@@ -68,7 +83,6 @@ const projectsData = [
       "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/2.png",
       "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/3.png",
       "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/4.png",
-    
     ],
   },
 ];
