@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .contactPage {
-  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 4fr;
@@ -14,10 +13,6 @@
     "img form"
     "img form";
 
-  h1 {
-    grid-area: header;
-  }
-
   .img {
     grid-area: img;
     background-image: url("../../../public//feedback-animate.svg");
@@ -27,11 +22,11 @@
     width: 100%;
     height: 100%;
   }
-  .success{
+  .success {
     grid-area: form;
     text-align: center;
-    h2{
-font-size: $fontSize;
+    h2 {
+      font-size: $fontSize;
     }
   }
   .formWraper {
@@ -40,16 +35,25 @@ font-size: $fontSize;
 }
 @media (max-width: $smallScreen) {
   .contactPage {
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 2fr 2fr;
-    row-gap: 150px
-    ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+    row-gap: 10px;
+
     grid-template-areas:
-      "header"
       "form"
-      "img" ;
-      > * {
-        margin-top: 30px;
+      "img";
+    .success {
+      h2 {
+        font-size: 1.2rem;
       }
+    }
+
+    .img {
+      grid-area: img;
+      background-image: url("../../../public//feedback-animate.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
   }
 }

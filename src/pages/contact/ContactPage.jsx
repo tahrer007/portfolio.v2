@@ -10,7 +10,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contact" className="contactPage">
+    <section id="contact" className="contactPage" >
       
 
       <div className="img"></div>
