@@ -6,14 +6,14 @@
   grid-template-rows: 1fr 4fr;
   justify-content: center;
   align-items: center;
-
   box-sizing: border-box;
   grid-template-areas:
     "header header"
     "img form"
     "img form";
   overflow: visible;
-  padding-bottom: 3rem;
+  
+  
 
   .img {
     grid-area: img;

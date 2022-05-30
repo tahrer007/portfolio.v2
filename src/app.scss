@@ -42,9 +42,8 @@
       display: none;
     }
     align-self: center;
-
-    @media (min-width: 600px) {
-    }
+    box-sizing: border-box;
+    padding-bottom: 2rem;
 
     > * {
       max-width: 1200px;
@@ -60,7 +59,7 @@
       }*/
     }
 
-    @media (max-width : $landScapeWidth) and (orientation: landscape) {
+    @media (max-width: $landScapeWidth) and (orientation: landscape) {
       .about,
       .projects {
         height: fit-content;
