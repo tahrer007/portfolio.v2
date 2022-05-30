@@ -13,14 +13,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     .p1 {
       font-size: 1.3rem;
     }
     .p2 {
       font-size: 2.8rem;
       color: $mainColor;
-     // box-shadow: $boxShadow;
+      // box-shadow: $boxShadow;
       font-weight: 800;
     }
     .p3 {
@@ -28,9 +28,6 @@
       font-weight: 600;
       line-height: 1.5;
     }
-
-    
-
   }
   .right {
     width: 40%;
@@ -38,8 +35,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
-    
   }
 
   //grid-area: right;

@@ -1,10 +1,12 @@
 @import "../../global.scss";
 
 .projectsPage {
-  //height: fit-content;
+  min-height: fit-content;
+  background-color: aqua;
+  
 
   .projectContainer {
-    height: 50%;
+    height: 40vh;
     width: 90%;
     display: flex;
     justify-content: center;

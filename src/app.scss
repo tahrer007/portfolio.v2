@@ -4,7 +4,6 @@
   padding: 0;
   overflow-x: hidden;
   box-sizing: border-box;
-
 }
 
 .app {
@@ -12,26 +11,28 @@
   font-family: $font;
   line-height: normal;
   background-color: $bgColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
 
-  .bgImage{
+  .bgImage {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
   }
 
-  .greenFont{
+  .greenFont {
     color: $mainColor;
   }
-
 
   .sections {
     width: 100%;
     height: calc(100vh - #{$topBarHeight});
     color: $fontColor;
-    display: grid;
-    justify-content: center;
-    position: relative;
-    top: 0;
     margin-left: auto;
     margin-right: auto;
     scroll-snap-type: y mandatory;
@@ -40,14 +41,15 @@
     &::-webkit-scrollbar {
       display: none;
     }
-    
-    @media (min-width:600px) {
-     
+    align-self: center;
+
+    @media (min-width: 600px) {
     }
 
     > * {
       max-width: 1200px;
-      min-height: calc(100vh - #{$topBarHeight});
+      height: calc(100vh - #{$topBarHeight});
+
       h1 {
         font-size: 1.8rem;
         text-align: center;
@@ -59,7 +61,3 @@
     }
   }
 }
-
-
-
-  

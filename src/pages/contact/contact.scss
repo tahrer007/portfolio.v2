@@ -1,13 +1,15 @@
 @import "../../global.scss";
 
 .contactPage {
+
+  background-color: brown;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 4fr;
   justify-content: center;
   align-items: center;
   padding-bottom: 3em;
-  box-sizing: content-box;
+  box-sizing: border-box;
   grid-template-areas:
     "header header"
     "img form"

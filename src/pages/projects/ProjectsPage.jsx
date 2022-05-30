@@ -11,13 +11,13 @@ import { technologiesIcons, projectsData } from "../../data/projectsData";
 
 const ProjectsPage = () => {
   return (
-    <section id="projects" className="projectsPage">
+    <section id="projects" className="projectsPage" style={{height :"fit-content"}}>
       <h1>My<span className="greenFont"> Projects</span></h1>
 
       {projectsData.map((project) => {
         return (
           <div
-            key={project.id}
+            key={project.id}s
             className="projectContainer"
             //style={{ flexDirection: project.id % 2 ? "row" : "row-reverse" }}
           >
