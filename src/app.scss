@@ -7,7 +7,7 @@
 }
 
 .app {
-  height: 100vh;
+  
   font-family: $font;
   line-height: normal;
   background-color: $bgColor;
@@ -38,6 +38,7 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    justify-content: center;
     &::-webkit-scrollbar {
       display: none;
     }
