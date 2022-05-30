@@ -1,0 +1,68 @@
+@import "../../global.scss";
+.formWraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  h3 {
+    font-size: 2rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: brown;
+    padding: 1rem;
+    box-shadow: $boxShadow;
+    border-radius: 7px;
+
+    label {
+      margin-bottom: 0.1rem;
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      border: 2px solid #eee;
+      padding: 1ch;
+      border-radius: 3px;
+      transition: 150ms ease;
+      outline: none;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    textarea {
+      resize: none;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      color: $fontColor;
+      font-weight: 600;
+      max-width: fit-content;
+      font-weight: 600;
+      background-color: $mainColor;
+      cursor: pointer;
+      padding: 10px 12px;
+      border-radius: 7px;
+      margin-top: 1em;
+      align-self: center;
+    }
+
+    textarea:focus,
+    input:focus {
+      border: 3px solid $hoverMainColor;
+      box-shadow: $boxShadow;
+    }
+  }
+}
