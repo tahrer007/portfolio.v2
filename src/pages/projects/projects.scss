@@ -15,9 +15,14 @@
   }
 }
 @media (max-width: $smallScreen) {
-  .projectContainer {
-    flex-direction: column-reverse;
-    width: 98%;
-    min-height: 70%;
+  .projectsPage{
+    .projectContainer{
+      flex-direction: column-reverse;
+      height: 70vh;
+      > * {
+        height: 50%;
+        width: 100%;
+      }
+    }
   }
 }

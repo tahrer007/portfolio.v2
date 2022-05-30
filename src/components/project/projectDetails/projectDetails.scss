@@ -39,23 +39,19 @@
   .skillIconsBox {
     height: 17%;
     width: 100%;
-    //align-self: flex-start;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
     padding: 0.3em;
-
     .skillIcon {
-      //box-shadow: $boxShadow;
       object-fit: fill;
       padding-right: 0.2em;
     }
   }
 }
-@media (max-width:$smallScreen) {
-  .projectDetailsWraper{
+@media (max-width: $smallScreen) {
+  .projectDetailsWraper {
     width: 100%;
+    height: 50%;
   }
 }
