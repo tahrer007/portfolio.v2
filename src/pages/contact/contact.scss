@@ -1,29 +1,47 @@
+@import "../../global.scss";
+
 .contactPage {
- 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr 4fr;
   justify-content: center;
+  align-items: center;
   padding-bottom: 3em;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  grid-template-areas:
+    "header header"
+    "img form"
+    "img form";
 
   h1 {
     grid-area: header;
-   
-    grid-column: 1 / span 2;
-    grid-row: 1;
   }
 
   .img {
-    
-   
+    grid-area: img;
     background-image: url("../../../public//feedback-animate.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
- 
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+  }
   .formWraper {
-   
+    grid-area: form;
+  }
+}
+@media (max-width: $smallScreen) {
+  .contactPage {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 2fr 2fr;
+    row-gap: 150px
+    ;
+    grid-template-areas:
+      "header"
+      "form"
+      "img" ;
+      > * {
+        margin-top: 30px;
+      }
   }
 }
