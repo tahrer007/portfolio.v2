@@ -1,30 +1,40 @@
 import React, { useState } from "react";
 import "./form.scss";
 import { send } from "emailjs-com";
+import validator from "validator";
 
-const Form = () => {
+const Form = ({ successed }) => {
   const [toSend, setToSend] = useState({
     from_name: "",
     message: "",
     reply_to: "",
   });
-  const [responseStatus,setResponseStatus]=useState(null);
+  const [faild, setFaild] = useState(false);
+  const [invalidEmail, setInvalidEmail] = useState(false);
+
   const handelSubmit = (e) => {
     e.preventDefault();
-    send(
-      'service_f9u6bx3',
-      'template_8wp5khv',
-      toSend,
-      'x147s0MX4_dldXCgX'
-    )
+    console.log(validator.isEmail(toSend.reply_to));
+    if (!validator.isEmail(toSend.reply_to)) {
+      console.log("invalid error!! ");
+
+      setInvalidEmail(true);
+      setTimeout(() => {
+        setInvalidEmail(false);
+      }, 2000);
+      return;
+    }
+
+    
+    send("service_f9u6bx3", "template_8wp5khv", toSend, "x147s0MX4_dldXCgX")
       .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
         //console.log('SUCCESS!', response.status, response.text);
-        //console.log('SUCCESS!', response.status, response.text);
-        setResponseStatus(true);
+        successed();
       })
       .catch((err) => {
-        console.log('FAILED...', err);
-        setResponseStatus(false);
+        console.log("FAILED...", err);
+        setFaild(true);
       });
   };
 
@@ -44,6 +54,7 @@ const Form = () => {
             placeholder="to name"
             value={toSend.from_name}
             onChange={handleChange}
+            
           />
         </label>
 
@@ -53,8 +64,9 @@ const Form = () => {
             type="text"
             name="reply_to"
             placeholder="Your email"
-            value={toSend.reply_to}
             onChange={handleChange}
+            value={invalidEmail?"Please enter valid e-mail":toSend.reply_to}
+            className={`${invalidEmail ? "invalidMail":""}`}
           />
         </label>
 
