@@ -6,12 +6,13 @@
   grid-template-rows: 1fr 4fr;
   justify-content: center;
   align-items: center;
-  padding-bottom: 3em;
+
   box-sizing: border-box;
   grid-template-areas:
     "header header"
     "img form"
     "img form";
+  overflow: visible;
 
   .img {
     grid-area: img;
@@ -36,8 +37,7 @@
 @media (max-width: $smallScreen) {
   .contactPage {
     grid-template-columns: 1fr;
-    grid-template-rows: 4fr 1fr;
-    row-gap: 10px;
+    grid-template-rows: 2.5fr 1fr;
 
     grid-template-areas:
       "form"
