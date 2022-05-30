@@ -13,6 +13,7 @@
     "img form"
     "img form";
   overflow: visible;
+  padding-bottom: 3rem;
 
   .img {
     grid-area: img;
@@ -33,9 +34,7 @@
   .formWraper {
     grid-area: form;
   }
-}
-@media (max-width: $smallScreen) {
-  .contactPage {
+  @media (max-width: $smallScreen) and (orientation :portrait) {
     grid-template-columns: 1fr;
     grid-template-rows: 2.5fr 1fr;
 
@@ -47,13 +46,29 @@
         font-size: 1.2rem;
       }
     }
-
-    .img {
-      grid-area: img;
-      background-image: url("../../../public//feedback-animate.svg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
-    }
   }
 }
+
+/*@media (orientation: landscape) and (max-width : $landScapeWidth) {
+    .contactPage {
+      grid-template-columns: 1fr;
+      grid-template-rows: 2.5fr 1fr;
+  
+      grid-template-areas:
+        "form"
+        "img";
+      .success {
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+  
+      .img {
+        grid-area: img;
+        background-image: url("../../../public//feedback-animate.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+    }
+}*/

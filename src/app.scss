@@ -7,10 +7,9 @@
 }
 
 .app {
-  
   font-family: $font;
   line-height: normal;
-  background-color:#191d24;
+  background-color: #191d24;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +29,7 @@
   }
 
   .sections {
-    width:fit-content;
+    width: fit-content;
     height: calc(100vh - #{$topBarHeight});
     color: $fontColor;
     margin-left: auto;
@@ -59,6 +58,13 @@
         width: 100vw;
        
       }*/
+    }
+
+    @media (max-width : $landScapeWidth) and (orientation: landscape) {
+      .about,
+      .projects {
+        height: fit-content;
+      }
     }
   }
 }
