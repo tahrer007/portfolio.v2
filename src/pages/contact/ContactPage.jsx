@@ -3,12 +3,15 @@ import "./contact.scss";
 import ContactIcons from "../../components/contacticons/ContactIcons";
 
 const ContactPage = () => {
-  return <section id="contact" className="contactPage">
-    <h1>Let's get in touch 😉</h1>
-        <ContactIcons/>
+  return (
+    <section id="contact" className="contactPage">
+      <h1>Contact Me</h1>
 
-        <footer> ©2022 Tahrer Abu Diab</footer>
-  </section>;
+      <div className="img"></div>
+      <div className="form">form</div>
+      
+    </section>
+  );
 };
 
 export default ContactPage;

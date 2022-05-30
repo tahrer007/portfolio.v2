@@ -18,6 +18,6 @@
   .projectContainer {
     flex-direction: column-reverse;
     width: 98%;
-    min-height: calc(100vh - #{$topBarHeight});
+    min-height: 70%;
   }
 }

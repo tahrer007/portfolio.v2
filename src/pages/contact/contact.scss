@@ -1,5 +1,29 @@
-.contactPage{
-    background-color: rgb(112, 171, 18);
-    justify-content: center;
+.contactPage {
+  background-color: rgb(112, 171, 18);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 4fr;
+  justify-content: center;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+
+  h1 {
+    grid-area: header;
+    background-color: red;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  .img {
     
+    background-color: rebeccapurple;
+    background-image: url("../../../public//feedback-animate.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+ 
+}
+  .form {
+    background-color: chocolate;
+  }
 }
