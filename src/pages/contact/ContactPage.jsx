@@ -11,11 +11,13 @@ const ContactPage = () => {
 
   return (
     <section id="contact" className="contactPage">
-      <h1>Contact Me</h1>
+      
 
       <div className="img"></div>
       {success ? (
-        <div className="form">thank you !!!</div>
+        <div className="success">
+          <h2> <span className="greenFont"> Thank you </span>for getting in touch!</h2>
+        </div>
       ) : (
         <Form successed={successed} />
       )}

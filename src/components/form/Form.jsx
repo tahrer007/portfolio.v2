@@ -44,7 +44,7 @@ const Form = ({ successed }) => {
 
   return (
     <div className="formWraper">
-      <h3>Lets get in touch</h3>
+      <h3>Lets <span className="greenFont">get</span> in <span className="greenFont">touch</span></h3>
       <form onSubmit={handelSubmit}>
         <label>
           Name:
