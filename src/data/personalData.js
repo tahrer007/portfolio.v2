@@ -25,5 +25,5 @@ const resumeLink =
   "https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view";
 
 const aboutMe =
-  "I have a great passion for coding and developing new practical websites.<br>Currently seeking full time jobs where I can use my skills to make the world a better place while learning from experts.";
+  "I have a great passion for coding and developing new practical apps.<br> I am currently seeking full-time jobs where I can use my skills to make the world a better place while learning from experts.";
 export { skillsDetails, aboutMe, resumeLink };
