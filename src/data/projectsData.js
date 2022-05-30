@@ -1,14 +1,14 @@
 const projectsData = [
   {
     id: 0,
-    title: "project Title",
+    title: "Spot-it",
     description:
-      "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",
+      "This project is a system to help the citizens of Haifa city to track and update each other on the appearance of wild pigs in their city streets in the last 48 hours.",
     links: {
       code: "https://github.com/tahrer007/spot-it-web",
       website: "https://spot-it-2022.herokuapp.com/",
     },
-    technologies: [0, 1, 2, 3, 9, 10],
+    technologies: [1, 3, 5,9, 10,8],
     screenshots: [
       "https://i.ibb.co/4fq5FvS/spot-it-1.png",
       "https://i.ibb.co/QpjYGBz/spot-it-2.png",
@@ -19,20 +19,21 @@ const projectsData = [
   },
   {
     id: 1,
-    title: "project Title",
+    title: "AVENGERS MATCH",
     description:
-      "He lifted the bottle to his lips and took a sip of the drink. He had tasted this before, but he couldn't quite remember the time and place it had happened. He desperately searched his mind trying to locate and remember where he had tasted this when the bicycle ran over his foot.",
+      "Front-end Project. AVENGERS MATCH is a flashcard memory game.it has four levels, easy, intermediate, hard, and Ninja. each player can create his own avatar and break his highest score.",
     links: {
-      code: "https://github.com/tahrer007/spot-it-web",
-      website: "https://spot-it-2022.herokuapp.com/",
+      code: "https://github.com/tahrer007/mid-project",
+      website: "https://tahrer-mid-project.netlify.app/",
     },
-    technologies: [0, 1, 2, 3, 9, 10],
+    technologies: [1,3,5],
     screenshots: [
-      "https://i.ibb.co/4fq5FvS/spot-it-1.png",
-      "https://i.ibb.co/QpjYGBz/spot-it-2.png",
-      "https://i.ibb.co/Jk9CX0q/spot-it-3.png",
-      "https://i.ibb.co/xhPRczN/spot-it-4.png",
-      "https://i.ibb.co/dJq8dF9/spot-it-5.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/start.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/levels.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/ninja.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/lastScore.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/avatar.png",
+      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/topScores.png",
     ],
   },
   {
@@ -53,7 +54,6 @@ const projectsData = [
       "https://i.ibb.co/dJq8dF9/spot-it-5.png",
     ],
   },
-  
 ];
 
 const technologiesIcons = [
@@ -120,6 +120,7 @@ const technologiesIcons = [
   },
 ];
 
-const resumeLink= "https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view"
+const resumeLink =
+  "https://drive.google.com/file/d/1vx50mpesNH79lXnLoKQRtM_ZN8C7GChv/view";
 
 export { technologiesIcons, projectsData };

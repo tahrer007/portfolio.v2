@@ -58,8 +58,7 @@
        
       }*/
     }
-
-    @media (max-width: $landScapeWidth) and (orientation: landscape) {
+    @media (orientation: landscape) and (max-width: $landScapeWidth) {
       .about,
       .projects {
         height: fit-content;

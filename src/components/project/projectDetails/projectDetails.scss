@@ -29,19 +29,16 @@
       padding: 5px;
       border-radius: 10px;
       cursor: pointer;
-     // border: 1px solid #303030;
-     background: #212121;
-        color: $mainColor;
+      // border: 1px solid #303030;
+      background: #212121;
+      color: $mainColor;
       border-radius: 20px;
-      
-      
     }
 
     .btn:hover {
       color: $fontColor;
       background-color: $mainColor;
       font-weight: 600;
-   
     }
   }
 
@@ -66,7 +63,6 @@
       .btn {
         padding: 7px;
       }
-      
     }
 
     .text {
@@ -77,12 +73,11 @@
 
     .skillIconsBox {
       height: 20%;
-      
+
       .skillIcon {
         object-fit: fill;
         padding-right: 0.2em;
       }
     }
   }
-  
 }
