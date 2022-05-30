@@ -10,7 +10,7 @@
   
   font-family: $font;
   line-height: normal;
-  background-color: $bgColor;
+  background-color:#191d24;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
   }
 
   .sections {
-    width: 100%;
+    width:fit-content;
     height: calc(100vh - #{$topBarHeight});
     color: $fontColor;
     margin-left: auto;
