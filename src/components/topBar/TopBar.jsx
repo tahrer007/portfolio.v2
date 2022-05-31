@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./topBar.scss";
-import ContactIcons from "../contacticons/ContactIcons";
+import ContactIcons from "./contacticons/ContactIcons";
 
 const TopBar = () => {
   

@@ -11,12 +11,19 @@
   font-size: 1.2rem;
   z-index: 10;
 
-  :first-child {
-    max-width: 20%;
+  .contactIconsWraper {
+    width: 20%;
     height: 90%;
   }
 
   .copyRights {
     line-height: normal;
+  }
+
+  @media (max-width: $smallScreen) {
+    .contactIconsWraper {
+      width: 50%;
+    
+    }
   }
 }

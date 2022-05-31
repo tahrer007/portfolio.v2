@@ -1,0 +1,17 @@
+@import "../../../global.scss";
+.contactIconsWraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .contactIcon {
+    max-width: 100%;
+    max-height: 50%;
+    fill: $fontColor;
+  }
+
+  @media (max-width: $smallScreen) {
+    justify-content: space-evenly;
+   
+  }
+}
