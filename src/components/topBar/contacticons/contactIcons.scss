@@ -4,12 +4,17 @@
   justify-content: space-around;
   align-items: center;
 
-  .contactIcon {
-    max-width: 100%;
-    max-height: 50%;
-    fill: $fontColor;
-    cursor: pointer;
+  .link {
+    display: block;
+    width: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    .contactIcon {
+      fill: $fontColor;
+      cursor: pointer;
+    }
   }
+
   .contactIcon:hover {
     fill: $hoverMainColor;
   }
