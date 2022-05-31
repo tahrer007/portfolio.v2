@@ -62,7 +62,7 @@ const projectsData = [
       code: "https://github.com/tahrer007/dice-game-2021",
       website: "https://app.netlify.com/sites/tahrer-dice-game/overview",
     },
-    technologies: [1, 2, 4, 5],
+    technologies: [1, 3, 5],
     screenshots: [
       "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/1.png",
       "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/2.png",
@@ -77,7 +77,7 @@ const projectsData = [
       code: "https://github.com/tahrer007/apple",
       website: "https://apple-clone-2021.netlify.app/",
     },
-    technologies: [0, 1, 3],
+    technologies: [0, 1],
     screenshots: [
       "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/5.png",
       "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/2.png",
