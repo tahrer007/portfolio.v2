@@ -78,7 +78,7 @@ const Form = ({ successed }) => {
             placeholder="Your message"
             value={toSend.message}
             onChange={handleChange}
-            rows="6"
+            rows="4"
             cols="50"
           />
         </label>

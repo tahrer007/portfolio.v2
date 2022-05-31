@@ -1,17 +1,17 @@
 const skillsDetails = [
   {
     title: "",
-    details: "not give up till win",
+    details: "Goal achiever",
     url: "https://cdn-icons-png.flaticon.com/512/4727/4727555.png",
   },
   {
     title: "",
-    details: "Good team player",
+    details: "Team player",
     url: "https://cdn-icons-png.flaticon.com/512/4727/4727533.png",
   },
   {
     title: "",
-    details: "extraordenary problem solving skills",
+    details: "Extraordenary problem solving skills",
     url: "https://cdn-icons-png.flaticon.com/512/4727/4727443.png",
   },
   {

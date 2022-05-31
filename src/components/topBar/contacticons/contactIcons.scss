@@ -6,7 +6,7 @@
 
   .link {
     display: block;
-    width: 30px;
+    width: 25px;
     box-sizing: border-box;
     overflow: hidden;
     .contactIcon {
@@ -21,5 +21,6 @@
 
   @media (max-width: $smallScreen) {
     justify-content: space-evenly;
+    width: 20px;
   }
 }

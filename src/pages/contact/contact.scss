@@ -3,12 +3,11 @@
 .contactPage {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 4fr;
   justify-content: center;
   align-items: center;
+ 
   box-sizing: border-box;
   grid-template-areas:
-    "img form"
     "img form";
   overflow: visible;
   
@@ -38,38 +37,17 @@
     grid-template-rows: 2.5fr 1fr;
 
     grid-template-areas:
-      "form"
-      "img";
+    "form" 
+    "img" ;
     .success {
       h2 {
         font-size: 1.2rem;
       }
     }
   }
-
- 
+  @media (max-width : 800px) {
+    //for ipad mini 
+    align-content: space-between;
+  }
 }
 
-/*@media (orientation: landscape) and (max-width : $landScapeWidth) {
-    .contactPage {
-      grid-template-columns: 1fr;
-      grid-template-rows: 2.5fr 1fr;
-  
-      grid-template-areas:
-        "form"
-        "img";
-      .success {
-        h2 {
-          font-size: 1.2rem;
-        }
-      }
-  
-      .img {
-        grid-area: img;
-        background-image: url("../../../public//feedback-animate.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-    }
-}*/
