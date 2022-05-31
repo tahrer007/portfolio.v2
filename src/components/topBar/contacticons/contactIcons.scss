@@ -4,10 +4,13 @@
   justify-content: space-around;
   align-items: center;
 
+  
+
   .contactIcon {
     max-width: 100%;
     max-height: 50%;
     fill: $fontColor;
+    cursor: pointer;
   }
 
   @media (max-width: $smallScreen) {
