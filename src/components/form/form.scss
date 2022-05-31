@@ -39,7 +39,6 @@
       resize: none;
     }
 
-   
     .btn {
       color: $fontColor;
       font-weight: 600;
@@ -63,23 +62,27 @@
     border: 3px solid red;
     color: red;
   }
-}
-@media (max-width: $smallScreen) {
-  .formWraper {
-    form {
-      padding: 0.2rem;
 
-      label {
-        margin: 0.3rem 0;
-        font-size: 1rem;
-        font-weight: 600;
-      }
+  @media (max-width: $smallScreen) {
+    .formWraper {
+      form {
+        padding: 0.2rem;
 
-      input,
-      textarea {
-        border: 2px solid #eee;
-        font-size: 0.75rem;
+        label {
+          margin: 0.3rem 0;
+          font-size: 1rem;
+          font-weight: 600;
+        }
+
+        input,
+        textarea {
+          border: 2px solid #eee;
+          font-size: 0.75rem;
+        }
       }
     }
   }
+}
+
+@media (max-width: $landScapeWidth) and (orientation: landscape) {
 }

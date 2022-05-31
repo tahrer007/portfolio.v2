@@ -28,12 +28,13 @@ const projectsData = [
     },
     technologies: [1, 3, 5],
     screenshots: [
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/start.png",
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/levels.png",
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/ninja.png",
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/lastScore.png",
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/avatar.png",
-      "https://raw.githubusercontent.com/tahrer007/mid-project/main/src/assets/images/readme/topScores.png",
+      "https://i.ibb.co/4dJ8PGd/start.png",
+      "https://i.ibb.co/2Pncp88/levels.png",
+      "https://i.ibb.co/yRTnWNy/last-Score.png",
+      "https://i.ibb.co/h70TppQ/top-Scores.png",
+      "https://i.ibb.co/zfGmdxz/ninja.png",
+      "https://i.ibb.co/h70TppQ/top-Scores.png",
+      "https://i.ibb.co/Mn590hj/avatar.png",
     ],
   },
   {
@@ -47,10 +48,10 @@ const projectsData = [
     },
     technologies: [0, 1, 3],
     screenshots: [
-      "https://raw.githubusercontent.com/tahrer007/minecraft-2d/main/assets/images/screnshots/1.png",
-      "https://raw.githubusercontent.com/tahrer007/minecraft-2d/main/assets/images/screnshots/2.png",
-      "https://raw.githubusercontent.com/tahrer007/minecraft-2d/main/assets/images/screnshots/3.png",
-      "https://raw.githubusercontent.com/tahrer007/minecraft-2d/main/assets/images/screnshots/4.png",
+      "https://i.ibb.co/nBPhkvk/1.png",
+      "https://i.ibb.co/kGdCJPD/2.png",
+      "https://i.ibb.co/n3SXKkP/3.png",
+      "https://i.ibb.co/Jv3X1mN/4.png",
     ],
   },
   {
@@ -64,8 +65,8 @@ const projectsData = [
     },
     technologies: [1, 3, 5],
     screenshots: [
-      "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/1.png",
-      "https://raw.githubusercontent.com/tahrer007/dice-game-2021/main/public/screenshots/2.png",
+      "https://i.ibb.co/HN5zBMc/2.png",
+      "https://i.ibb.co/bWwSNrq/1.png",
     ],
   },
   {
@@ -79,10 +80,10 @@ const projectsData = [
     },
     technologies: [0, 1],
     screenshots: [
-      "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/5.png",
-      "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/2.png",
-      "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/3.png",
-      "https://raw.githubusercontent.com/tahrer007/apple/main/image/screenshots/4.png",
+      "https://i.ibb.co/TttkjJ6/1.png",
+      "https://i.ibb.co/Rvn1RBs/2.png",
+      "https://i.ibb.co/sWHL6FY/4.png",
+      "https://i.ibb.co/6wM2Pgm/3.png",
     ],
   },
 ];

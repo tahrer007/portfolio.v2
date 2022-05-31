@@ -60,7 +60,7 @@
     }
     @media (orientation: landscape) and (max-width: $landScapeWidth) {
       .about,
-      .projects {
+      .projects ,.contact {
         height: fit-content;
       }
     }
