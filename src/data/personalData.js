@@ -22,7 +22,7 @@ const skillsDetails = [
 ];
 
 const resumeLink =
-  "https://drive.google.com/file/d/1Rwf0Hf1OVolVjmCKjXjpbo6AOAu4X2RP/view?usp=sharing";
+  "https://docs.google.com/document/d/1esvdoSh-J6Ecn9lm9IzdUKnNNbrSJDAQ/edit?usp=sharing&ouid=111185854006509634223&rtpof=true&sd=true";
 
 const aboutMe =
   "I have a great passion for coding and developing new practical apps.<br> I am currently seeking full-time job where I can use my skills to make the world a better place while learning from experts.";
