@@ -27,7 +27,7 @@ const ProjectsPage = () => {
   useEffect(()=>{
     detectSize()
   },[])
- // window.addEventListener('resize', handleResize) ;
+ 
 
   return (
     <section
