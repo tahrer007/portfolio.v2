@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.sideNav {
+  padding: 5px;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  z-index: 10;
+  background-color: red;
+
+  ul {
+    background-color: rebeccapurple;
+    li {
+      background-color: aquamarine;
+    border-radius: 2.5rem;
+
+
+      .test {
+        
+        //padding: 10px;
+        .svgIcons {
+          height: 1em;
+          width: 1em;
+          font-size: 1.5rem;
+          
+        }
+      }
+    }
+  }
+}
