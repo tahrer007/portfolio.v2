@@ -37,7 +37,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <section id="home" className="homePage">
+    <section id="home" className="pages homePage">
       <div className="left">
         <p className="p1">
           {" "}

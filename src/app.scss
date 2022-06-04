@@ -45,7 +45,7 @@
     box-sizing: border-box;
     padding-bottom: 2rem;
 
-    > * {
+    .pages{
       max-width: 1200px;
       height: calc(100vh - #{$topBarHeight});
 

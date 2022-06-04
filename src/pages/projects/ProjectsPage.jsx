@@ -32,7 +32,7 @@ const ProjectsPage = () => {
   return (
     <section
       id="projects"
-      className="projectsPage"
+      className="pages projectsPage"
       style={{ height: "fit-content" }}
     >
       <h1>

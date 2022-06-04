@@ -36,7 +36,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contact" className="contactPage">
+    <section id="contact" className="pages contactPage">
       <div className="img"></div>
       {success ? (
         <div className="success">
