@@ -53,10 +53,7 @@
         font-size: 1.8rem;
         text-align: center;
       }
-      /*@media (max-width: $smallScreen) {
-        width: 100vw;
-       
-      }*/
+      
     }
     @media (orientation: landscape) and (max-width: $landScapeWidth) {
       .about,
