@@ -3,35 +3,47 @@
 .sideNav {
   position: fixed;
   right: 0.5em;
-  top: 25%;
+  top: 35%;
   z-index: 10;
-  //width: 3vw;
+  display: flex;
+  flex-direction: column;
 
-  ul {
+
+  .linksSideBar {
+    display: flex;
     text-align: center;
-    li {
-      //
-      position: relative;
-      width: 25px;
-      cursor: pointer;
-      background: $mainColor;
-      text-transform: uppercase;
-      transition: all 0.4s ease-out;
-
-      padding: 10px;
-      margin-bottom: 10px;
-      .svgIcons {
-        max-height: 100%;
-        max-width: 100%;
-
-        fill: $fontColor;
-      }
-    }
-    li:hover {
-      background: $bgColor;
-      .svgIcons {
-        fill: $hoverMainColor;
-      }
+    cursor: pointer;
+    background: $mainColor;
+    border-radius: 100%;
+ 
+    padding: 10px;
+    margin-bottom: 10px;
+    .svgIcons {
+      height: 1.2em;
+      width: 1.2em;
+      fill: $fontColor;
     }
   }
+  li:hover {
+    background: $bgColor;
+    .svgIcons {
+      fill: $hoverMainColor;
+      transition: all 0.4s ease-out;
+    }
+  }
+  @media (max-width: 800px) {
+
+    flex-direction: row;
+    bottom: 0.5em;
+    left: 35%;
+    top: auto;
+
+    .linksSideBar{
+      margin-right: 10px;
+    }
+    
+
+  }
 }
+
+
