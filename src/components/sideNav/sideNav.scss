@@ -1,30 +1,27 @@
 @import "../../global.scss";
 
 .sideNav {
-  padding: 5px;
   position: fixed;
-  right: 10px;
-  top: 50%;
+  right: 0.5em;
+  top: 40%;
   z-index: 10;
-  background-color: red;
+  width: 4vw;
 
   ul {
-    background-color: rebeccapurple;
+   
     li {
-      background-color: aquamarine;
-    border-radius: 2.5rem;
-
-
-      .test {
-        
-        //padding: 10px;
-        .svgIcons {
-          height: 1em;
-          width: 1em;
-          font-size: 1.5rem;
-          cursor: pointer;
-          
-        }
+      //
+      .svgIcons {
+        padding: 10px;
+        border-radius: 100%;
+        text-align: center;
+        border: 1px solid black;
+        height: 30px;
+        width: 30px;
+        //font-size: 2rem;
+        cursor: pointer;
+        fill: $fontColor ;
+        background-color:$hoverMainColor;
       }
     }
   }

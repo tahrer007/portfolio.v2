@@ -10,7 +10,6 @@ const SideNav = () => {
       <ul>
         <li>
           <Link to="/">
-            home
             <svg
               className="svgIcons"
               xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +22,6 @@ const SideNav = () => {
 
         <li>
           <Link to="/about">
-            about
             <svg
               className="svgIcons"
               xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +34,6 @@ const SideNav = () => {
 
         <li>
           <Link to="/projects">
-            projects
             <svg
               className="svgIcons"
               xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +46,6 @@ const SideNav = () => {
 
         <li>
           <Link to="/contact">
-            contact 
             <svg
               className="svgIcons"
               xmlns="http://www.w3.org/2000/svg"
