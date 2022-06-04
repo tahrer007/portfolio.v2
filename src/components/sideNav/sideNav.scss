@@ -8,14 +8,13 @@
   display: flex;
   flex-direction: column;
 
-
   .linksSideBar {
     display: flex;
     text-align: center;
     cursor: pointer;
     background: $mainColor;
     border-radius: 100%;
- 
+
     padding: 10px;
     margin-bottom: 10px;
     .svgIcons {
@@ -24,26 +23,22 @@
       fill: $fontColor;
     }
   }
-  li:hover {
+  .linksSideBar:hover {
     background: $bgColor;
     .svgIcons {
       fill: $hoverMainColor;
       transition: all 0.4s ease-out;
     }
   }
-  @media (max-width: 800px) {
-
+  @media (orientation : portrait) and (max-width: 800px) {
     flex-direction: row;
-    bottom: 0.5em;
-    left: 35%;
+    left: auto;
+    right: auto;
     top: auto;
-
-    .linksSideBar{
+   bottom: 0.5em;
+   // left: calc(50vw / 2);
+    .linksSideBar {
       margin-right: 10px;
     }
-    
-
   }
 }
-
-
