@@ -39,7 +39,7 @@ const ProjectsPage = () => {
         My<span className="greenFont"> Projects</span>
       </h1>
 
-      {projectsData.map((project) => {
+      {(projectsData) ?projectsData.map((project) => {
         return (
           <div
             key={project.id}
@@ -51,7 +51,7 @@ const ProjectsPage = () => {
             <ProjectScreenShots project={project} />
           </div>
         );
-      })}
+      }): null}
     </section>
   );
 };

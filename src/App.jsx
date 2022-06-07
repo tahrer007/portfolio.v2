@@ -13,7 +13,7 @@ const App = () => {
     <div className="app">
       <TopBar />
 
-  <SideNav />
+      <SideNav />
 
       <div className="sections">
         <HomePage />
