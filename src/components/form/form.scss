@@ -1,12 +1,10 @@
 @import "../../global.scss";
 .formWraper {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  //width: 90%;
   h3 {
     font-size: 2rem;
   }
@@ -19,7 +17,6 @@
     padding: 1rem;
     box-shadow: $boxShadow;
     border-radius: 7px;
-    
 
     label {
       margin: 0.3rem 0;
@@ -88,4 +85,3 @@
     }
   }
 }
-

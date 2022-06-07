@@ -18,29 +18,22 @@
   .contactRightSide {
     width: 90%;
     height: 90%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
   }
   .success {
     text-align: center;
     h2 {
-      font-size: $fontSize;
+      font-size: 1.8rem;
     }
   }
 
   @media (max-width: $smallScreen) and (orientation: portrait) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
-
-    grid-template-areas:
-      "form"
-      "img";
-    .success {
+    /*.success {
       h2 {
         font-size: 2rem;
       }
-    }
-  }
-  @media (max-width: 800px) {
-    //for ipad mini
-    align-content: space-between;
+    }*/
   }
 }
