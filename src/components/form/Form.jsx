@@ -25,11 +25,9 @@ const Form = ({ successed }) => {
       return;
     }
 
-    
     send("service_f9u6bx3", "template_8wp5khv", toSend, "x147s0MX4_dldXCgX")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        //console.log('SUCCESS!', response.status, response.text);
         successed();
       })
       .catch((err) => {
@@ -43,8 +41,11 @@ const Form = ({ successed }) => {
   };
 
   return (
-    <div className="formWraper">
-      <h3>Lets <span className="greenFont">get</span> in <span className="greenFont">touch</span></h3>
+    <div className="contactRightSide formWraper">
+      <h3>
+        Lets <span className="greenFont">get</span> in{" "}
+        <span className="greenFont">touch</span>
+      </h3>
       <form onSubmit={handelSubmit}>
         <label>
           Name:
@@ -54,7 +55,6 @@ const Form = ({ successed }) => {
             placeholder="to name"
             value={toSend.from_name}
             onChange={handleChange}
-            
           />
         </label>
 
@@ -65,8 +65,8 @@ const Form = ({ successed }) => {
             name="reply_to"
             placeholder="Your email"
             onChange={handleChange}
-            value={invalidEmail?"Please enter valid e-mail":toSend.reply_to}
-            className={`${invalidEmail ? "invalidMail":""}`}
+            value={invalidEmail ? "Please enter valid e-mail" : toSend.reply_to}
+            className={`${invalidEmail ? "invalidMail" : ""}`}
           />
         </label>
 
