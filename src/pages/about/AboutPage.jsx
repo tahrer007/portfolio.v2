@@ -4,24 +4,23 @@ import PersonalDetails from "../../components/personalDetails/PersonalDetails";
 import TechnicalSkills from "../../components/technicalSkills/TechnicalSkills";
 import "./about.scss";
 
-
 const AboutPage = () => {
   return (
-    <section id="about" className="">
+    <section id="about" className="sectionsWraper">
       <div className="space"></div>
       <div className="pages about">
-      <div className="title">
-      <h1>About<span className="greenFont"> Me</span></h1>
-      </div>
-      
-      <PersonalSkills/>
-      <div className="lowerContainer">
-        <PersonalDetails />
-        <TechnicalSkills/>
-      </div>
+        <div className="title">
+          <h1>
+            About<span className="greenFont"> Me</span>
+          </h1>
+        </div>
 
+        <PersonalSkills />
+        <div className="lowerContainer">
+          <PersonalDetails />
+          <TechnicalSkills />
+        </div>
       </div>
-      
     </section>
   );
 };

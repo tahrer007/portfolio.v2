@@ -34,20 +34,18 @@
 
   .sections {
     width: fit-content;
-    //height: calc(100vh - #{$topBarHeight});
+    
     color: $fontColor;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     box-sizing: border-box;
-   /* &::-webkit-scrollbar {
-      display: none;
-    }*/
+   
     align-self: center;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    > * {
+    .sectionsWraper{
       max-width: 1200px;
       //height: calc(100vh - #{$topBarHeight});
       height: 100vh;
@@ -56,6 +54,7 @@
       display: flex;
       flex-direction: column;
       //background-color: aqua;
+      box-sizing: border-box;
       .space {
         width: 100%;
         height: $topBarHeight;
@@ -67,6 +66,7 @@
         width: 100%;
         height: calc(100vh - #{$topBarHeight});
         padding: 2em 0;
+        box-sizing: border-box;
       }
 
       h1 {

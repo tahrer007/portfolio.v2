@@ -36,7 +36,7 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contact" className="">
+    <section id="contact" className="sectionsWraper">
       <div className="space">
       <div className="pages contactPage"></div>
       <div className="img"></div>
