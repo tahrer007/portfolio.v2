@@ -31,7 +31,7 @@
       transition: all 0.4s ease-out;
     }
   }
-  @media (orientation : portrait) and (max-width: 800px) {
+  @media (orientation : portrait) and (max-width: 960px) {
     flex-direction: row;
     left: auto;
     right: auto;

@@ -2,11 +2,8 @@
 * {
   margin: 0;
   padding: 0;
-  //overflow-x: hidden;
   box-sizing: border-box;
-  
  
-
 }
 
 .app {
@@ -15,12 +12,15 @@
   line-height: normal;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  
-
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 0;
 
   .bgImage {
     background-position: center;
@@ -34,27 +34,40 @@
 
   .sections {
     width: fit-content;
-    height: calc(100vh - #{$topBarHeight});
+    //height: calc(100vh - #{$topBarHeight});
     color: $fontColor;
     margin-left: auto;
     margin-right: auto;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
     justify-content: center;
     box-sizing: border-box;
-   
-
-    &::-webkit-scrollbar {
+   /* &::-webkit-scrollbar {
       display: none;
-    }
+    }*/
     align-self: center;
     box-sizing: border-box;
-    padding-bottom: 2rem;
-
-    .pages{
+    padding: 0;
+    margin: 0;
+    > * {
       max-width: 1200px;
-      height: calc(100vh - #{$topBarHeight});
+      //height: calc(100vh - #{$topBarHeight});
+      height: 100vh;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      //background-color: aqua;
+      .space {
+        width: 100%;
+        height: $topBarHeight;
+        background-color: brown;
+        
+  
+      }
+      .pages{
+        width: 100%;
+        height: calc(100vh - #{$topBarHeight});
+        padding: 2em 0;
+      }
 
       h1 {
         font-size: 1.8rem;

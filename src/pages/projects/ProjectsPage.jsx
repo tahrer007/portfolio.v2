@@ -32,9 +32,12 @@ const ProjectsPage = () => {
   return (
     <section
       id="projects"
-      className="pages projectsPage"
+      className=""
       style={{ height: "fit-content" }}
     >
+
+      <div className="space"></div>
+      <div className="pages projectsPage">
       <h1>
         My<span className="greenFont"> Projects</span>
       </h1>
@@ -49,9 +52,12 @@ const ProjectsPage = () => {
           >
             <ProjectDetails project={project} />
             <ProjectScreenShots project={project} />
+            
           </div>
         );
+      
       }): null}
+        </div>
     </section>
   );
 };

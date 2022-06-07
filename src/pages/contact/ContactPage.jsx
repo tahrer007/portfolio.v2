@@ -36,7 +36,9 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contact" className="pages contactPage">
+    <section id="contact" className="">
+      <div className="space">
+      <div className="pages contactPage"></div>
       <div className="img"></div>
       {success ? (
         <div className="success">
@@ -49,6 +51,7 @@ const ContactPage = () => {
       ) : (
         <Form successed={successed} />
       )}
+      </div>
     </section>
   );
 };
