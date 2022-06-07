@@ -10,9 +10,6 @@
   grid-template-areas:
     "img form";
   overflow: visible;
-  
-  
-
   .img {
     grid-area: img;
     background-image: url("../../../public//feedback-animate.svg");
@@ -34,7 +31,7 @@
   }
   @media (max-width: $smallScreen) and (orientation :portrait) {
     grid-template-columns: 1fr;
-    grid-template-rows: 2.5fr 1fr;
+    grid-template-rows: 2fr 1fr;
 
     grid-template-areas:
     "form" 
