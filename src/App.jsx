@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div className="app">
       <TopBar />
-
       <SideNav />
 
       <div className="sections">

@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 .app {
@@ -34,21 +33,20 @@
 
   .sections {
     width: fit-content;
-    
+
     color: $fontColor;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     box-sizing: border-box;
-   
+
     align-self: center;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    .sectionsWraper{
+    .sectionsWraper {
       max-width: 1200px;
-      //height: calc(100vh - #{$topBarHeight});
-      height: 100vh;
+      //height: 100vh;
       padding: 0;
       margin: 0;
       display: flex;
@@ -59,10 +57,8 @@
         width: 100%;
         height: $topBarHeight;
         background-color: brown;
-        
-  
       }
-      .pages{
+      .pages {
         width: 100%;
         height: calc(100vh - #{$topBarHeight});
         padding: 2em 0;
@@ -73,11 +69,11 @@
         font-size: 1.8rem;
         text-align: center;
       }
-      
     }
     @media (orientation: landscape) and (max-width: $landScapeWidth) {
       .about,
-      .projects ,.contactPage {
+      .projects,
+      .contactPage {
         height: fit-content;
       }
     }
