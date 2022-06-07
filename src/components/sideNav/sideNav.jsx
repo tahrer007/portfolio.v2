@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-scroll";
 import "./sideNav.scss";
 
 const SideNav = () => {
   useEffect(() => {}, []);
   return (
     <div className="sideNav">
-      <Link to="/" className="linksSideBar">
+      <Link to="home" className="linksSideBar" spy={true} smooth={true} offset={50} duration={400}>
         <svg
           className="svgIcons"
           xmlns="http://www.w3.org/2000/svg"
@@ -17,7 +17,14 @@ const SideNav = () => {
         </svg>
       </Link>
 
-      <Link to="/about" className="linksSideBar">
+      <Link
+        to="about"
+        className="linksSideBar"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={400}
+      >
         <svg
           className="svgIcons"
           xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +34,14 @@ const SideNav = () => {
         </svg>
       </Link>
 
-      <Link to="/projects" className="linksSideBar">
+      <Link
+        to="projects"
+        className="linksSideBar"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={400}
+      >
         <svg
           className="svgIcons"
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +51,14 @@ const SideNav = () => {
         </svg>
       </Link>
 
-      <Link to="/contact" className="linksSideBar">
+      <Link
+        to="contact"
+        className="linksSideBar"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={400}
+      >
         <svg
           className="svgIcons"
           xmlns="http://www.w3.org/2000/svg"

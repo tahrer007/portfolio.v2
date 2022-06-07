@@ -2,21 +2,22 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  //overflow-x: hidden;
   box-sizing: border-box;
+
 }
 
 .app {
   font-family: $font;
   line-height: normal;
-  background-color: #191d24;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100vw;
+  //width: 100vw;
   margin-left: auto;
   margin-right: auto;
+  background-color: #191d24;
 
   .bgImage {
     background-position: center;
@@ -38,6 +39,8 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
     justify-content: center;
+   
+
     &::-webkit-scrollbar {
       display: none;
     }

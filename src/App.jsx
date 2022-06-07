@@ -6,7 +6,6 @@ import AboutPage from "./pages/about/AboutPage";
 import TopBar from "./components/topBar/TopBar";
 import SideNav from "./components/sideNav/SideNav";
 import "./app.scss";
-import { Routes, Route } from "react-router-dom";
 import ScrollToTop from "./services/scrolltotop";
 
 const App = () => {
@@ -14,7 +13,7 @@ const App = () => {
     <div className="app">
       <TopBar />
 
-    {  /*<SideNav />*/}
+  <SideNav />
 
       <div className="sections">
         <HomePage />
