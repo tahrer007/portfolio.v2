@@ -38,7 +38,7 @@ const HomePage = () => {
 
   return (
     <section id="home" className="sectionsWraper">
-      <div className="space"></div>
+  {  /*  <div className="space"></div>*/}
       <div className="pages homePage">
       <div className="left">
         <p className="p1">
