@@ -38,24 +38,24 @@ const HomePage = () => {
 
   return (
     <section id="home" className="sectionsWraper">
-  {  /*  <div className="space"></div>*/}
+      <div className="space"></div>
       <div className="pages homePage">
-      <div className="left">
-        <p className="p1">
-          {" "}
-          <span ref={text1Ref}></span>
-        </p>
-        <p className="p2">
-          {" "}
-          <span ref={text2Ref}></span>
-        </p>
-        <p className="p3">
-          <span ref={text3Ref}></span>
-        </p>
-        <ResumeBtn />
+        <div className="left">
+          <p className="p1">
+            {" "}
+            <span ref={text1Ref}></span>
+          </p>
+          <p className="p2">
+            {" "}
+            <span ref={text2Ref}></span>
+          </p>
+          <p className="p3">
+            <span ref={text3Ref}></span>
+          </p>
+          <ResumeBtn />
+        </div>
+        <div className="right"></div>
       </div>
-      <div className="right"></div>
-      </div> 
     </section>
   );
 };
