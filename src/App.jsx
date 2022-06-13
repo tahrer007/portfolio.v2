@@ -5,12 +5,14 @@ import ProjectsPage from "./pages/projects/ProjectsPage";
 import AboutPage from "./pages/about/AboutPage";
 import TopBar from "./components/topBar/TopBar";
 import SideNav from "./components/sideNav/SideNav";
+import OnlyPortrait from "./components/onlyPortrate/OnlyPortrait";
 import "./app.scss";
-import ScrollToTop from "./services/scrolltotop";
+
 
 const App = () => {
   return (
     <div className="app">
+      <OnlyPortrait/>
       <TopBar />
       <SideNav />
 
