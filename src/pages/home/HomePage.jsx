@@ -42,11 +42,9 @@ const HomePage = () => {
       <div className="pages homePage">
         <div className="left">
           <p className="p1">
-            {" "}
             <span ref={text1Ref}></span>
           </p>
           <p className="p2">
-            {" "}
             <span ref={text2Ref}></span>
           </p>
           <p className="p3">

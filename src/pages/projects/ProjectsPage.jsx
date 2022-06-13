@@ -29,8 +29,8 @@ const ProjectsPage = () => {
   }, []);
 
   return (
-    <section id="projects" className="sectionsWraper"  >
-     <div className="space">test!!!!</div>
+    <section id="projects" className="sectionsWraper">
+      <div className="space"></div>
       <div className="pages projectsPage" style={{ height: "fit-content" }}>
         <h1>
           My<span className="greenFont"> Projects</span>
