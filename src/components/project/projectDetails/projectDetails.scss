@@ -55,9 +55,8 @@
       padding-right: 0.2em;
     }
   }
-}
-@media (max-width: $smallScreen) {
-  .projectDetailsWraper {
+
+  @media (max-width: $smallScreen) {
     .btnsWraper {
       margin-bottom: 0.2em;
 
@@ -78,6 +77,8 @@
       .skillIcon {
         object-fit: fill;
         padding-right: 0.2em;
+        width: 10vmin;
+        height: 10vmin;
       }
     }
   }
