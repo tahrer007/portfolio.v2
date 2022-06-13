@@ -67,5 +67,34 @@
       }
     }
   }
+
+  @media (orientation: landscape) and (max-width: $landScapeWidth) {
+    .personalSkills {
+      height: 20%;
+      flex-wrap: wrap;
+    }
+
+    /*.lowerContainer {
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
   
+      > * {
+        width: 50%;
+        height: 100%;
+      }
+  
+      .technicalSkills {
+        align-self: center;
+        display: grid;
+        height: 60%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+      }
+    }*/
+    
+  }
 }

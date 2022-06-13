@@ -12,8 +12,10 @@ const PersonalSkills = () => {
       {skillsDetails.map((skill, index) => {
         return (
           <div className="skillCard" key={index}>
-            <div className="bgImage icon" style={ {backgroundImage: `url(${skill.url})`
-} }></div>
+            <div
+              className="bgImage icon"
+              style={{ backgroundImage: `url(${skill.url})` , backgroundSize :"contain" }}
+            ></div>
             <div className="description">{skill.details}</div>
           </div>
         );
