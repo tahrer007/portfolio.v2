@@ -1,53 +1,46 @@
 @import "../../global.scss";
 
 .contactPage {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
- 
   box-sizing: border-box;
-  grid-template-areas:
-    "img form";
-  overflow: visible;
-  
-  
 
   .img {
-    grid-area: img;
     background-image: url("../../../public//feedback-animate.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
+  }
+  .contactRightSide {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .success {
-    grid-area: form;
     text-align: center;
     h2 {
-      font-size: $fontSize;
+      font-size: 1.8rem;
     }
   }
-  .formWraper {
-    grid-area: form;
-  }
-  @media (max-width: $smallScreen) and (orientation :portrait) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 2.5fr 1fr;
 
-    grid-template-areas:
-    "form" 
-    "img" ;
-    .success {
-      h2 {
-        font-size: 2rem;
-      }
+  @media (orientation: portrait) and (max-width: 960px) {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    .img {
+      width: 90%;
+      height: 30%;
     }
-  }
-  @media (max-width : 800px) {
-    //for ipad mini 
-    align-content: space-between;
+
+    .contactRightSide {
+      width: 90%;
+      height: 65%;
+    }
   }
 }
-

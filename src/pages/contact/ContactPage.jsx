@@ -36,19 +36,22 @@ const ContactPage = () => {
   };
 
   return (
-    <section id="contact" className="contactPage">
-      <div className="img"></div>
-      {success ? (
-        <div className="success">
-          <h2>
-            {" "}
-            <span className="greenFont" ref={text1Ref}></span>
-            <span ref={text2Ref}></span>
-          </h2>
+    <section id="contact" className="sectionsWraper">
+      <div className="space"></div>
+        <div className="pages contactPage">
+          <div className="img"></div>
+          {success ? (
+            <div className="contactRightSide success">
+              <h2>
+                <span className="greenFont" ref={text1Ref}></span>
+                <span ref={text2Ref}></span>
+              </h2>
+            </div>
+          ) : (
+            <Form successed={successed} />
+          )}
         </div>
-      ) : (
-        <Form successed={successed} />
-      )}
+      
     </section>
   );
 };

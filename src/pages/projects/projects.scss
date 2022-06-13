@@ -15,8 +15,8 @@
   }
 }
 @media (max-width: $smallScreen) {
-  .projectsPage{
-    .projectContainer{
+  .projectsPage {
+    .projectContainer {
       flex-direction: column-reverse;
       height: 70vh;
       > * {
@@ -26,13 +26,10 @@
     }
   }
 }
-@media (orientation: landscape) and (max-width : $landScapeWidth) {
-  .projectsPage{
-    .projectContainer{
-     
+@media (orientation: landscape) and (max-width: $landScapeWidth) {
+  .projectsPage {
+    .projectContainer {
       height: 90vh;
-     
     }
   }
 }
-
