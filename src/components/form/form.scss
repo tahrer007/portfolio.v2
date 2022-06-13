@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
   h3 {
     font-size: 2rem;
   }
@@ -64,23 +66,25 @@
   }
 
   @media (max-width: $smallScreen) {
-    .formWraper {
-      form {
-        //padding: 0.2rem;
-        //padding: 1rem;
-        background-color: aqua;
+    h3 {
+      font-size: 1.8rem;
+      padding-bottom: 0.5rem;
+    }
 
-        label {
-          margin: 0.3rem 0;
-          font-size: 1rem;
-          font-weight: 600;
-        }
+    form {
+      padding: 0.5rem;
 
-        input,
-        textarea {
-          border: 2px solid #eee;
-          font-size: 0.1rem;
-        }
+      label {
+        margin: 0.1rem 0;
+        font-size: 1rem;
+      }
+
+      input,
+      textarea {
+        padding: 0.5ch;
+        font-size: 0.9rem;
+        margin: 0.3rem 0;
+        resize: none;
       }
     }
   }
