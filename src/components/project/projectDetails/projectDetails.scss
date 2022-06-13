@@ -48,15 +48,17 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    
     box-sizing: border-box;
     padding: 0.1em;
     .skillIcon {
       object-fit: fill;
       padding-right: 0.2em;
+      
     }
   }
 
-  @media (max-width: $smallScreen) {
+  @media (max-width: 800px) {
     .btnsWraper {
       margin-bottom: 0.2em;
 

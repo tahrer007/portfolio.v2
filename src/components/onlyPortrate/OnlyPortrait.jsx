@@ -5,7 +5,6 @@ import "./onlyPortrait.scss"
 const OnlyPortrait = () => {
   return (
     <div className="onlyPortrait">
-      only portrait
     </div>
   );
 };
