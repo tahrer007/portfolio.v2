@@ -5,8 +5,8 @@ const projectsData = [
     description:
       "This project is a system to help the citizens of Haifa city to track and update each other on the appearance of wild pigs in their city streets in the last 48 hours.",
     links: {
-      code: "https://github.com/tahrer007/spot-it-web",
-      website: "https://spot-it-2022.herokuapp.com/",
+      code: "https://github.com/tahrer007/spot-it-web-client",
+      website: "https://spot-it-web-2022.netlify.app/",
     },
     technologies: [1, 3, 5, 9, 10, 8],
     screenshots: [
