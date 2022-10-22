@@ -1,11 +1,31 @@
 const projectsData = [
   {
     id: 0,
+    title: "E-Penny Bank",
+    description:
+      "Mock money-saving app with unique features, surprise box (like the physical one) and shared box.",
+    links: {
+      code: "https://github.com/tahrer007/E-Penny-Bank",
+      website: "https://spot-it-web-2022.netlify.app/",
+    },
+    technologies: [1, 3, 5, 9, 10, 8],
+    screenshots: [
+      "https://i.ibb.co/1fBR23b/Screenshot-100.png",
+      " https://i.ibb.co/99PhTgy/Screenshot-99.png",
+      " https://i.ibb.co/zfYv6d6/Screenshot-101.png",
+      " https://i.ibb.co/DR2mvfh/Screenshot-102.png",
+      " https://i.ibb.co/C1KmL3s/Screenshot-103.png",
+      "https://i.ibb.co/RQcPzVd/Screenshot-104.png",
+    ],
+  },
+
+  {
+    id: 1,
     title: "Spot-it",
     description:
       "This project is a system to help the citizens of Haifa city to track and update each other on the appearance of wild pigs in their city streets in the last 48 hours.",
     links: {
-      code: "https://github.com/tahrer007/spot-it-web-client",
+      code: "https://github.com/tahrer007/Spot-it",
       website: "https://spot-it-web-2022.netlify.app/",
     },
     technologies: [1, 3, 5, 9, 10, 8],
@@ -18,7 +38,7 @@ const projectsData = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "AVENGERS MATCH",
     description:
       "Front-end Project. AVENGERS MATCH is a flashcard memory game.it has four levels, easy, intermediate, hard, and Ninja. each player can create his own avatar and break his highest score.",
@@ -38,7 +58,7 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Minecraft-2d",
     description:
       "In this game, you can choose the appropriate tool such as a shovel for the ground, a pickaxe for rocks, and an ax for the trees. You can also put the last item you removed in any empty place.also, I used sound effects for each tool, building and using wrong tool.",
@@ -55,7 +75,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Dice Game",
     description:
       "This game is React app. two players play with a dice each player can roll the dice or change turns until reaching the target. This is my first react app.",
@@ -70,7 +90,7 @@ const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Apple Clone",
     description:
       "In This project, I cloned the apple website. Apple clone is one of my first projects. I used my basic skills in CSS and HTML to clone the pages and animations.",
