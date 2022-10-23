@@ -6,9 +6,9 @@ const projectsData = [
       "Mock money-saving app with unique features, surprise box (like the physical one) and shared box.",
     links: {
       code: "https://github.com/tahrer007/E-Penny-Bank",
-      website: "https://spot-it-web-2022.netlify.app/",
+      website: "https://e-penny-bank.netlify.app/",
     },
-    technologies: [1, 3, 5, 9, 10, 8],
+    technologies: [1,2,5, 9, 10, 8],
     screenshots: [
       "https://i.ibb.co/1fBR23b/Screenshot-100.png",
       " https://i.ibb.co/99PhTgy/Screenshot-99.png",
