@@ -63,8 +63,8 @@ const projectsData = [
     description:
       "In this game, you can choose the appropriate tool such as a shovel for the ground, a pickaxe for rocks, and an ax for the trees. You can also put the last item you removed in any empty place.also, I used sound effects for each tool, building and using wrong tool.",
     links: {
-      code: "https://github.com/tahrer007/spot-it-web",
-      website: "https://github.com/tahrer007/apple",
+      code: "https://github.com/tahrer007/minecraft-2d",
+      website: "https://minecraft-2d-new.netlify.app/",
     },
     technologies: [0, 1, 3],
     screenshots: [
@@ -81,7 +81,7 @@ const projectsData = [
       "This game is React app. two players play with a dice each player can roll the dice or change turns until reaching the target. This is my first react app.",
     links: {
       code: "https://github.com/tahrer007/dice-game-2021",
-      website: "https://app.netlify.com/sites/tahrer-dice-game/overview",
+      website: "https://tahrer-dice-game.netlify.app/",
     },
     technologies: [1, 3, 5],
     screenshots: [
